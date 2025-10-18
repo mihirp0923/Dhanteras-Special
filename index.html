@@ -3,26 +3,13 @@
  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Purvi's Magical Universe - Beyond Imagination</title>
+  <title>Golden Dhanteras 2025 - Festival of Wealth &amp; Prosperity</title>
   <script src="/_sdk/element_sdk.js"></script>
   <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }
-
-        /* SMOOTH PERFORMANCE OPTIMIZATIONS */
-        * {
-            will-change: auto;
-            transform: translateZ(0);
-            backface-visibility: hidden;
-            perspective: 1000px;
-        }
-
-        /* SMOOTH SCROLLING */
-        html {
-            scroll-behavior: smooth;
         }
 
         body {
@@ -33,100 +20,28 @@
             overflow-x: hidden;
             height: 100vh;
             position: relative;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            text-rendering: optimizeLegibility;
         }
 
         html {
             height: 100%;
+            scroll-behavior: smooth;
         }
 
-        /* REVOLUTIONARY 3D COSMIC BACKGROUND */
-        .cosmic-universe {
+        /* GOLDEN DHANTERAS BACKGROUND */
+        .dhanteras-universe {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
             background: 
-                radial-gradient(ellipse at top, #1e3c72 0%, #2a5298 50%, #000 100%),
-                radial-gradient(ellipse at bottom, #ff6b35 0%, #f7931e 25%, #000 75%),
-                radial-gradient(circle at 20% 80%, rgba(255, 215, 0, 0.4) 0%, transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(255, 107, 53, 0.4) 0%, transparent 50%),
-                radial-gradient(circle at 40% 40%, rgba(138, 43, 226, 0.3) 0%, transparent 50%),
-                linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #4facfe 100%);
-            background-size: 100% 100%, 100% 100%, 300% 300%, 400% 400%, 500% 500%, 200% 200%;
-            animation: cosmicFlow 30s ease-in-out infinite;
+                radial-gradient(ellipse at top, #8B4513 0%, #DAA520 30%, #FFD700 60%, #000 100%),
+                radial-gradient(ellipse at bottom, #B8860B 0%, #CD853F 25%, #8B4513 75%, #000 100%);
             z-index: 1;
         }
 
-        @keyframes cosmicFlow {
-            0%, 100% { 
-                background-position: 0% 0%, 0% 100%, 0% 50%, 100% 50%, 50% 0%, 0% 0%;
-                filter: hue-rotate(0deg) brightness(1) saturate(1.2);
-                transform: scale3d(1, 1, 1);
-            }
-            20% { 
-                background-position: 25% 25%, 25% 75%, 100% 50%, 0% 50%, 0% 100%, 25% 25%;
-                filter: hue-rotate(72deg) brightness(1.3) saturate(1.5);
-                transform: scale3d(1.05, 1.05, 1);
-            }
-            40% { 
-                background-position: 50% 50%, 50% 50%, 100% 100%, 0% 0%, 100% 50%, 50% 50%;
-                filter: hue-rotate(144deg) brightness(1.1) saturate(1.8);
-                transform: scale3d(0.95, 0.95, 1);
-            }
-            60% { 
-                background-position: 75% 75%, 75% 25%, 0% 100%, 100% 0%, 50% 100%, 75% 75%;
-                filter: hue-rotate(216deg) brightness(1.4) saturate(1.3);
-                transform: scale3d(1.08, 1.08, 1);
-            }
-            80% { 
-                background-position: 100% 100%, 100% 0%, 50% 0%, 50% 100%, 0% 0%, 100% 100%;
-                filter: hue-rotate(288deg) brightness(1.2) saturate(1.6);
-                transform: scale3d(1.02, 1.02, 1);
-            }
-        }
-
-        /* MAGICAL NEBULA CLOUDS */
-        .nebula-layer {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: 2;
-            background: 
-                radial-gradient(ellipse 800px 400px at 25% 25%, rgba(255, 20, 147, 0.2) 0%, transparent 50%),
-                radial-gradient(ellipse 600px 300px at 75% 75%, rgba(138, 43, 226, 0.25) 0%, transparent 50%),
-                radial-gradient(ellipse 1000px 500px at 50% 10%, rgba(0, 191, 255, 0.15) 0%, transparent 50%),
-                radial-gradient(ellipse 700px 350px at 10% 90%, rgba(255, 215, 0, 0.2) 0%, transparent 50%);
-            animation: nebulaFloat 40s ease-in-out infinite;
-        }
-
-        @keyframes nebulaFloat {
-            0%, 100% { 
-                transform: translateX(0%) translateY(0%) rotate(0deg) scale(1);
-                opacity: 0.8;
-            }
-            25% { 
-                transform: translateX(5%) translateY(-3%) rotate(90deg) scale(1.1);
-                opacity: 1;
-            }
-            50% { 
-                transform: translateX(-3%) translateY(5%) rotate(180deg) scale(0.9);
-                opacity: 0.9;
-            }
-            75% { 
-                transform: translateX(-5%) translateY(-2%) rotate(270deg) scale(1.05);
-                opacity: 1;
-            }
-        }
-
-        /* REVOLUTIONARY PARTICLE SYSTEM */
-        .particle-universe {
+        /* GOLDEN PARTICLE SYSTEM */
+        .golden-particles {
             position: fixed;
             top: 0;
             left: 0;
@@ -136,118 +51,47 @@
             z-index: 3;
         }
 
-        .cosmic-particle {
+        .gold-coin {
             position: absolute;
+            width: 20px;
+            height: 20px;
+            background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
             border-radius: 50%;
-            animation: cosmicDance 8s infinite ease-in-out;
-            filter: blur(0.5px);
+            border: 2px solid #B8860B;
+            animation: coinFall 6s linear infinite;
+            box-shadow: 0 0 15px #FFD700;
         }
 
-        .particle-type-1 {
-            width: 3px;
-            height: 3px;
-            background: radial-gradient(circle, #fff, #ffd700);
-            box-shadow: 0 0 20px #ffd700, 0 0 40px #ffd700, 0 0 60px #ffd700;
+        .gold-coin::before {
+            content: '₹';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #8B4513;
+            font-weight: bold;
+            font-size: 12px;
         }
 
-        .particle-type-2 {
-            width: 2px;
-            height: 2px;
-            background: radial-gradient(circle, #ff69b4, #ff1493);
-            box-shadow: 0 0 15px #ff69b4, 0 0 30px #ff69b4;
-        }
-
-        .particle-type-3 {
-            width: 4px;
-            height: 4px;
-            background: radial-gradient(circle, #00bfff, #1e90ff);
-            box-shadow: 0 0 25px #00bfff, 0 0 50px #00bfff;
-        }
-
-        .particle-type-4 {
-            width: 2.5px;
-            height: 2.5px;
-            background: radial-gradient(circle, #9370db, #8a2be2);
-            box-shadow: 0 0 18px #9370db, 0 0 36px #9370db;
-        }
-
-        @keyframes cosmicDance {
+        @keyframes coinFall {
             0% { 
-                transform: translateY(100vh) translateX(0px) rotate(0deg) scale(0);
+                transform: translateY(-20px) rotate(0deg);
                 opacity: 0;
             }
             10% { 
                 opacity: 1;
-                transform: translateY(90vh) translateX(20px) rotate(36deg) scale(1);
-            }
-            25% { 
-                transform: translateY(75vh) translateX(-15px) rotate(90deg) scale(1.5);
-            }
-            50% { 
-                transform: translateY(50vh) translateX(30px) rotate(180deg) scale(1.2);
-            }
-            75% { 
-                transform: translateY(25vh) translateX(-25px) rotate(270deg) scale(0.8);
             }
             90% { 
                 opacity: 1;
-                transform: translateY(10vh) translateX(10px) rotate(324deg) scale(1.1);
             }
             100% { 
-                transform: translateY(-10vh) translateX(0px) rotate(360deg) scale(0);
+                transform: translateY(100vh) rotate(360deg);
                 opacity: 0;
             }
         }
 
-        /* FLOATING LOVE CONSTELLATION */
-        .love-constellation {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: 4;
-        }
-
-        .love-symbol {
-            position: absolute;
-            font-size: clamp(16px, 4vw, 28px);
-            animation: loveFloat 12s infinite ease-in-out;
-            opacity: 0;
-            filter: drop-shadow(0 0 10px currentColor);
-        }
-
-        @keyframes loveFloat {
-            0% { 
-                transform: translateY(100vh) translateX(-50px) rotate(0deg) scale(0.3);
-                opacity: 0;
-            }
-            15% { 
-                opacity: 0.9;
-                transform: translateY(85vh) translateX(20px) rotate(45deg) scale(1);
-            }
-            35% { 
-                transform: translateY(65vh) translateX(-30px) rotate(135deg) scale(1.3);
-            }
-            55% { 
-                transform: translateY(45vh) translateX(40px) rotate(225deg) scale(1.1);
-            }
-            75% { 
-                transform: translateY(25vh) translateX(-20px) rotate(315deg) scale(0.9);
-            }
-            90% { 
-                opacity: 0.8;
-                transform: translateY(5vh) translateX(10px) rotate(405deg) scale(0.7);
-            }
-            100% { 
-                transform: translateY(-10vh) translateX(0px) rotate(450deg) scale(0.2);
-                opacity: 0;
-            }
-        }
-
-        /* RESPONSIVE CONTAINER SYSTEM */
-        .magic-container {
+        /* MAIN CONTAINER */
+        .dhanteras-container {
             position: relative;
             z-index: 10;
             min-height: 100vh;
@@ -256,8 +100,8 @@
             padding: clamp(1rem, 5vw, 3rem);
         }
 
-        /* REVOLUTIONARY SECTION DESIGN */
-        .magic-section {
+        /* DHANTERAS SECTIONS */
+        .dhanteras-section {
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -268,146 +112,121 @@
             padding: clamp(2rem, 8vw, 4rem) clamp(1rem, 5vw, 2rem);
         }
 
-        /* MIND-BLOWING TITLE EFFECTS */
-        .cosmic-title {
-            font-size: clamp(2.5rem, 12vw, 6rem);
+        /* GOLDEN TITLE */
+        .golden-title {
+            font-size: clamp(3rem, 15vw, 8rem);
             font-weight: 900;
             background: linear-gradient(
                 45deg,
-                #ff6b35 0%,
-                #ffd700 15%,
-                #ff69b4 30%,
-                #00bfff 45%,
-                #9370db 60%,
-                #ffd700 75%,
-                #ff6b35 90%,
-                #ff1493 100%
+                #FFD700 0%,
+                #FFA500 20%,
+                #FFFF00 40%,
+                #FFD700 60%,
+                #DAA520 80%,
+                #FFD700 100%
             );
             background-size: 400% 400%;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            animation: cosmicShimmer 6s ease-in-out infinite, titleBreath 4s ease-in-out infinite;
+            animation: goldenShimmer 4s ease-in-out infinite;
             text-shadow: 0 0 50px rgba(255, 215, 0, 0.8);
-            letter-spacing: clamp(1px, 2vw, 4px);
+            letter-spacing: clamp(2px, 3vw, 6px);
             line-height: 1.1;
             margin-bottom: clamp(1rem, 4vw, 2rem);
-            transform-style: preserve-3d;
+            filter: drop-shadow(0 0 30px #FFD700);
         }
 
-        @keyframes cosmicShimmer {
+        @keyframes goldenShimmer {
             0%, 100% { background-position: 0% 50%; }
             25% { background-position: 100% 50%; }
             50% { background-position: 200% 50%; }
             75% { background-position: 300% 50%; }
         }
 
-        @keyframes titleBreath {
-            0%, 100% { 
-                transform: scale(1) rotateX(0deg) rotateY(0deg);
-                filter: drop-shadow(0 0 30px #ffd700);
-            }
-            50% { 
-                transform: scale(1.05) rotateX(5deg) rotateY(2deg);
-                filter: drop-shadow(0 0 60px #ff69b4);
-            }
-        }
-
-        /* MAGICAL SUBTITLE */
-        .cosmic-subtitle {
-            font-size: clamp(1.2rem, 6vw, 2.5rem);
-            color: #ffd700;
+        /* PROSPERITY SUBTITLE */
+        .prosperity-subtitle {
+            font-size: clamp(1.5rem, 7vw, 3rem);
+            color: #FFD700;
             margin-bottom: clamp(2rem, 6vw, 3rem);
             opacity: 0;
-            animation: subtitleReveal 4s ease-out 1.5s forwards;
+            animation: prosperityReveal 3s ease-out 1s forwards;
             font-style: italic;
             text-shadow: 0 0 30px rgba(255, 215, 0, 0.8);
-            letter-spacing: clamp(0.5px, 1vw, 2px);
+            letter-spacing: clamp(1px, 2vw, 3px);
         }
 
-        @keyframes subtitleReveal {
+        @keyframes prosperityReveal {
             0% { 
                 opacity: 0; 
-                transform: translateY(50px) scale(0.8);
-                filter: blur(10px);
+                transform: translateY(30px) scale(0.9);
             }
             100% { 
                 opacity: 1; 
                 transform: translateY(0) scale(1);
-                filter: blur(0px);
             }
         }
 
-        /* REVOLUTIONARY LOVE DECLARATION */
-        .love-declaration {
-            font-size: clamp(1rem, 4vw, 1.8rem);
-            color: #ffed4e;
+        /* WEALTH BLESSING */
+        .wealth-blessing {
+            font-size: clamp(1.2rem, 5vw, 2rem);
+            color: #FFFF99;
             max-width: 90%;
             line-height: 1.8;
             margin: clamp(2rem, 6vw, 4rem) 0;
             opacity: 0;
-            animation: typewriterMagic 8s steps(100) 3s forwards;
-            border-right: 3px solid #ffd700;
-            white-space: nowrap;
-            overflow: hidden;
+            animation: blessingAppear 4s ease-out 2s forwards;
             text-align: center;
+            text-shadow: 0 0 20px rgba(255, 255, 153, 0.6);
         }
 
-        @keyframes typewriterMagic {
+        @keyframes blessingAppear {
             0% { 
-                width: 0; 
-                opacity: 1;
-                border-color: #ffd700;
-            }
-            99% { 
-                width: 100%; 
-                opacity: 1;
-                border-color: #ffd700;
+                opacity: 0; 
+                transform: translateY(40px);
             }
             100% { 
-                width: 100%; 
-                opacity: 1;
-                border-color: transparent;
+                opacity: 1; 
+                transform: translateY(0);
             }
         }
 
-        /* MIND-BLOWING INTERACTIVE BUTTONS */
-        .magic-buttons-grid {
+        /* DHANTERAS MAGIC BUTTONS */
+        .dhanteras-buttons {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: clamp(1.5rem, 4vw, 3rem);
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: clamp(2rem, 5vw, 3rem);
             width: 100%;
             max-width: 1200px;
             margin: clamp(3rem, 8vw, 5rem) 0;
         }
 
-        .cosmic-button {
+        .golden-button {
             position: relative;
             background: linear-gradient(135deg, 
-                rgba(255, 107, 53, 0.9) 0%,
-                rgba(255, 140, 66, 0.9) 25%,
-                rgba(255, 215, 0, 0.9) 50%,
-                rgba(255, 107, 53, 0.9) 75%,
-                rgba(255, 20, 147, 0.9) 100%
+                #FFD700 0%,
+                #FFA500 25%,
+                #FFFF00 50%,
+                #DAA520 75%,
+                #B8860B 100%
             );
-            border: none;
-            padding: clamp(1rem, 4vw, 2rem) clamp(1.5rem, 5vw, 3rem);
-            border-radius: 50px;
-            color: #000;
-            font-size: clamp(1rem, 3vw, 1.4rem);
+            border: 3px solid #8B4513;
+            padding: clamp(1.5rem, 5vw, 2.5rem) clamp(2rem, 6vw, 3rem);
+            border-radius: 25px;
+            color: #8B4513;
+            font-size: clamp(1.2rem, 4vw, 1.6rem);
             font-weight: bold;
             cursor: pointer;
-            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            transition: all 0.4s ease;
             box-shadow: 
-                0 10px 30px rgba(255, 107, 53, 0.4),
-                inset 0 1px 0 rgba(255, 255, 255, 0.3);
+                0 15px 40px rgba(255, 215, 0, 0.4),
+                inset 0 2px 0 rgba(255, 255, 255, 0.3),
+                0 0 30px rgba(255, 215, 0, 0.6);
             overflow: hidden;
-            backdrop-filter: blur(10px);
-            transform-style: preserve-3d;
-            will-change: transform, box-shadow, filter;
+            text-shadow: 0 1px 2px rgba(139, 69, 19, 0.3);
         }
 
-        .cosmic-button::before {
+        .golden-button::before {
             content: '';
             position: absolute;
             top: 0;
@@ -416,2091 +235,1276 @@
             height: 100%;
             background: linear-gradient(90deg, 
                 transparent, 
-                rgba(255, 255, 255, 0.6), 
+                rgba(255, 255, 255, 0.4), 
                 transparent
             );
-            transition: left 0.8s ease;
+            transition: left 0.6s ease;
         }
 
-        .cosmic-button:hover::before {
+        .golden-button:hover::before {
             left: 100%;
         }
 
-        .cosmic-button:hover {
-            transform: translate3d(0, -10px, 0) scale3d(1.05, 1.05, 1) rotateX(5deg);
+        .golden-button:hover {
+            transform: translateY(-8px) scale(1.05);
             box-shadow: 
-                0 25px 50px rgba(255, 107, 53, 0.6),
+                0 25px 60px rgba(255, 215, 0, 0.6),
                 0 0 50px rgba(255, 215, 0, 0.8),
-                inset 0 1px 0 rgba(255, 255, 255, 0.5);
-            filter: brightness(1.15) saturate(1.2);
+                inset 0 2px 0 rgba(255, 255, 255, 0.5);
+            filter: brightness(1.1);
         }
 
-        .cosmic-button:active {
-            transform: translate3d(0, -5px, 0) scale3d(1.02, 1.02, 1) rotateX(2deg);
-            transition: all 0.1s ease-out;
+        .golden-button:active {
+            transform: translateY(-4px) scale(1.02);
         }
 
-        /* REVOLUTIONARY FLOATING ELEMENTS */
-        .floating-magic {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: 5;
-        }
-
-        .magic-element {
-            position: absolute;
-            font-size: clamp(20px, 5vw, 35px);
-            animation: magicFloat 15s infinite linear;
-            opacity: 0;
-            filter: drop-shadow(0 0 15px currentColor);
-        }
-
-        @keyframes magicFloat {
-            0% { 
-                transform: translateY(100vh) translateX(-100px) rotate(0deg) scale(0.5);
-                opacity: 0;
-            }
-            10% { 
-                opacity: 0.8;
-                transform: translateY(90vh) translateX(50px) rotate(72deg) scale(1);
-            }
-            30% { 
-                transform: translateY(70vh) translateX(-80px) rotate(144deg) scale(1.4);
-            }
-            50% { 
-                transform: translateY(50vh) translateX(100px) rotate(216deg) scale(1.2);
-            }
-            70% { 
-                transform: translateY(30vh) translateX(-60px) rotate(288deg) scale(0.9);
-            }
-            90% { 
-                opacity: 0.7;
-                transform: translateY(10vh) translateX(30px) rotate(360deg) scale(0.7);
-            }
-            100% { 
-                transform: translateY(-20vh) translateX(0px) rotate(432deg) scale(0.3);
-                opacity: 0;
-            }
-        }
-
-        /* COSMIC LOVE LETTER SECTION */
-        .cosmic-letter {
-            background: linear-gradient(135deg, 
-                rgba(255, 248, 220, 0.95) 0%,
-                rgba(255, 235, 205, 0.98) 50%,
-                rgba(255, 228, 196, 0.95) 100%
-            );
-            color: #8b4513;
-            padding: clamp(2rem, 8vw, 4rem);
-            border-radius: 30px;
-            max-width: 95%;
-            margin: clamp(3rem, 8vw, 5rem) auto;
-            box-shadow: 
-                0 30px 80px rgba(0, 0, 0, 0.4),
-                0 0 100px rgba(255, 215, 0, 0.6),
-                inset 0 1px 0 rgba(255, 255, 255, 0.8);
-            border: 4px solid #daa520;
-            position: relative;
-            backdrop-filter: blur(15px);
-            transform-style: preserve-3d;
-        }
-
-        .cosmic-letter::before {
-            content: '';
-            position: absolute;
-            top: -20px;
-            left: -20px;
-            right: -20px;
-            bottom: -20px;
-            background: linear-gradient(45deg, 
-                #ffd700 0%, 
-                #ffed4e 25%, 
-                #ffa500 50%, 
-                #ff6b35 75%, 
-                #ffd700 100%
-            );
-            border-radius: 35px;
-            z-index: -1;
-            animation: letterAura 5s ease-in-out infinite alternate;
-        }
-
-        @keyframes letterAura {
-            0% { 
-                box-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
-                transform: scale(1);
-            }
-            100% { 
-                box-shadow: 0 0 80px rgba(255, 215, 0, 1);
-                transform: scale(1.02);
-            }
-        }
-
-        .letter-title {
-            font-size: clamp(1.8rem, 6vw, 3rem);
-            color: #b8860b;
+        /* ROMANTIC SECTION FOR GIRLFRIEND */
+        .romantic-section {
+            margin: clamp(4rem, 10vw, 6rem) 0;
             text-align: center;
-            margin-bottom: clamp(2rem, 6vw, 3rem);
-            font-family: 'Brush Script MT', cursive;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
 
-        .letter-content {
-            font-size: clamp(1rem, 3vw, 1.4rem);
-            line-height: 2;
-            margin-bottom: clamp(2rem, 6vw, 3rem);
-            text-align: left;
-            text-indent: 2rem;
-        }
-
-        /* FINAL COSMIC MESSAGE */
-        .final-cosmic-message {
-            font-size: clamp(2rem, 8vw, 4rem);
+        .romantic-title {
+            font-size: clamp(2rem, 8vw, 3.5rem);
             background: linear-gradient(45deg, 
-                #ffd700 0%, 
-                #ff69b4 25%, 
-                #00bfff 50%, 
-                #9370db 75%, 
-                #ffd700 100%
+                #FFB6C1 0%, 
+                #FFD700 25%, 
+                #FF69B4 50%, 
+                #FFA500 75%, 
+                #FFB6C1 100%
             );
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            animation: finalPulse 4s ease-in-out infinite;
+            animation: romanticShimmer 3s ease-in-out infinite;
+            margin-bottom: clamp(2rem, 6vw, 3rem);
+            text-shadow: 0 0 30px rgba(255, 182, 193, 0.8);
+            font-family: 'Brush Script MT', cursive;
+        }
+
+        @keyframes romanticShimmer {
+            0%, 100% { 
+                filter: drop-shadow(0 0 20px #FFB6C1);
+            }
+            50% { 
+                filter: drop-shadow(0 0 40px #FF69B4);
+            }
+        }
+
+        .romantic-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: clamp(2rem, 5vw, 3rem);
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .romantic-button {
+            position: relative;
+            background: linear-gradient(135deg, 
+                #FFB6C1 0%,
+                #FFD700 20%,
+                #FF69B4 40%,
+                #FFA500 60%,
+                #FFB6C1 80%,
+                #FFD700 100%
+            );
+            border: 3px solid #FF1493;
+            padding: clamp(1.5rem, 5vw, 2.5rem) clamp(2rem, 6vw, 3rem);
+            border-radius: 30px;
+            color: #8B0000;
+            font-size: clamp(1.2rem, 4vw, 1.6rem);
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            box-shadow: 
+                0 15px 40px rgba(255, 105, 180, 0.4),
+                inset 0 2px 0 rgba(255, 255, 255, 0.3),
+                0 0 30px rgba(255, 182, 193, 0.6);
+            overflow: hidden;
+            text-shadow: 0 1px 2px rgba(139, 0, 0, 0.3);
+            animation: romanticPulse 4s ease-in-out infinite;
+        }
+
+        @keyframes romanticPulse {
+            0%, 100% { 
+                transform: scale(1);
+                box-shadow: 
+                    0 15px 40px rgba(255, 105, 180, 0.4),
+                    0 0 30px rgba(255, 182, 193, 0.6);
+            }
+            50% { 
+                transform: scale(1.02);
+                box-shadow: 
+                    0 20px 50px rgba(255, 105, 180, 0.6),
+                    0 0 50px rgba(255, 182, 193, 0.8);
+            }
+        }
+
+        .romantic-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, 
+                transparent, 
+                rgba(255, 255, 255, 0.5), 
+                transparent
+            );
+            transition: left 0.6s ease;
+        }
+
+        .romantic-button:hover::before {
+            left: 100%;
+        }
+
+        .romantic-button:hover {
+            transform: translateY(-10px) scale(1.08);
+            box-shadow: 
+                0 30px 70px rgba(255, 105, 180, 0.7),
+                0 0 60px rgba(255, 182, 193, 0.9),
+                inset 0 2px 0 rgba(255, 255, 255, 0.6);
+            filter: brightness(1.15);
+        }
+
+        .romantic-button:active {
+            transform: translateY(-5px) scale(1.05);
+        }
+
+        /* DHANTERAS STORY SECTION */
+        .dhanteras-story {
+            background: linear-gradient(135deg, 
+                rgba(139, 69, 19, 0.9) 0%,
+                rgba(160, 82, 45, 0.95) 50%,
+                rgba(205, 133, 63, 0.9) 100%
+            );
+            color: #FFD700;
+            padding: clamp(3rem, 8vw, 5rem);
+            border-radius: 30px;
+            max-width: 95%;
+            margin: clamp(3rem, 8vw, 5rem) auto;
+            box-shadow: 
+                0 30px 80px rgba(0, 0, 0, 0.5),
+                0 0 100px rgba(255, 215, 0, 0.4),
+                inset 0 2px 0 rgba(255, 255, 255, 0.2);
+            border: 4px solid #DAA520;
+            position: relative;
+            backdrop-filter: blur(10px);
+        }
+
+        .dhanteras-story::before {
+            content: '';
+            position: absolute;
+            top: -15px;
+            left: -15px;
+            right: -15px;
+            bottom: -15px;
+            background: linear-gradient(45deg, 
+                #FFD700 0%, 
+                #FFA500 25%, 
+                #DAA520 50%, 
+                #B8860B 75%, 
+                #FFD700 100%
+            );
+            border-radius: 35px;
+            z-index: -1;
+            animation: storyAura 6s ease-in-out infinite alternate;
+        }
+
+        @keyframes storyAura {
+            0% { 
+                box-shadow: 0 0 40px rgba(255, 215, 0, 0.6);
+            }
+            100% { 
+                box-shadow: 0 0 80px rgba(255, 215, 0, 1);
+            }
+        }
+
+        .story-title {
+            font-size: clamp(2rem, 7vw, 3.5rem);
+            color: #FFFF00;
+            text-align: center;
+            margin-bottom: clamp(2rem, 6vw, 3rem);
+            font-family: 'Brush Script MT', cursive;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .story-content {
+            font-size: clamp(1.1rem, 4vw, 1.5rem);
+            line-height: 2;
+            margin-bottom: clamp(2rem, 6vw, 3rem);
+            text-align: left;
+            text-indent: 2rem;
+            color: #FFFACD;
+        }
+
+        /* FINAL BLESSING */
+        .final-blessing {
+            font-size: clamp(2.5rem, 10vw, 5rem);
+            background: linear-gradient(45deg, 
+                #FFD700 0%, 
+                #FFFF00 25%, 
+                #FFA500 50%, 
+                #DAA520 75%, 
+                #FFD700 100%
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: blessingPulse 3s ease-in-out infinite;
             margin: clamp(3rem, 8vw, 5rem) 0;
             text-shadow: 0 0 50px rgba(255, 215, 0, 0.8);
             text-align: center;
             font-weight: 900;
         }
 
-        @keyframes finalPulse {
+        @keyframes blessingPulse {
             0%, 100% { 
-                transform: scale(1) rotateY(0deg);
-                filter: drop-shadow(0 0 30px #ffd700);
+                transform: scale(1);
+                filter: drop-shadow(0 0 30px #FFD700);
             }
             50% { 
-                transform: scale(1.1) rotateY(5deg);
-                filter: drop-shadow(0 0 60px #ff69b4);
+                transform: scale(1.05);
+                filter: drop-shadow(0 0 60px #FFD700);
             }
         }
 
-        /* REVOLUTIONARY MODAL SYSTEM */
-        .cosmic-modal {
-            display: none;
+        /* LAKSHMI LOTUS DECORATION */
+        .lotus-decoration {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            opacity: 0.3;
+            animation: lotusFloat 8s ease-in-out infinite;
+        }
+
+        .lotus-decoration:nth-child(1) { top: 10%; left: 5%; animation-delay: 0s; }
+        .lotus-decoration:nth-child(2) { top: 20%; right: 8%; animation-delay: 2s; }
+        .lotus-decoration:nth-child(3) { bottom: 15%; left: 10%; animation-delay: 4s; }
+        .lotus-decoration:nth-child(4) { bottom: 25%; right: 5%; animation-delay: 6s; }
+
+        @keyframes lotusFloat {
+            0%, 100% { 
+                transform: translateY(0px) rotate(0deg);
+                opacity: 0.3;
+            }
+            50% { 
+                transform: translateY(-20px) rotate(180deg);
+                opacity: 0.6;
+            }
+        }
+
+        /* SPECIAL EFFECTS */
+        .gold-rain-particle {
             position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.9);
-            backdrop-filter: blur(20px);
+            width: 8px;
+            height: 8px;
+            background: #FFD700;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 999;
+            animation: goldRain 3s ease-out forwards;
+            box-shadow: 0 0 10px #FFD700;
         }
 
-        .modal-content {
-            background: linear-gradient(135deg, 
-                rgba(26, 26, 46, 0.95) 0%,
-                rgba(22, 33, 62, 0.98) 50%,
-                rgba(15, 52, 96, 0.95) 100%
-            );
-            margin: 5% auto;
-            padding: clamp(2rem, 8vw, 4rem);
-            border-radius: 30px;
-            width: 90%;
-            max-width: 600px;
-            text-align: center;
-            border: 3px solid #ffd700;
-            box-shadow: 
-                0 30px 100px rgba(255, 215, 0, 0.4),
-                inset 0 1px 0 rgba(255, 255, 255, 0.2);
-            animation: modalMagic 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            backdrop-filter: blur(15px);
+        /* DIYA LIGHT EFFECTS */
+        .diya-light {
+            position: fixed;
+            pointer-events: none;
+            z-index: 999;
+            animation: diyaFlicker 4s ease-out forwards;
         }
 
-        @keyframes modalMagic {
+        @keyframes diyaFlicker {
             0% { 
-                opacity: 0; 
-                transform: scale(0.3) rotateY(-90deg) translateY(-100px);
-                filter: blur(20px);
+                opacity: 0;
+                transform: scale(0) rotate(0deg);
+                filter: brightness(0.5);
+            }
+            20% { 
+                opacity: 1;
+                transform: scale(1.2) rotate(45deg);
+                filter: brightness(1.5);
+            }
+            40% { 
+                opacity: 0.8;
+                transform: scale(1) rotate(90deg);
+                filter: brightness(1.2);
+            }
+            60% { 
+                opacity: 1;
+                transform: scale(1.1) rotate(180deg);
+                filter: brightness(1.4);
+            }
+            80% { 
+                opacity: 0.9;
+                transform: scale(1) rotate(270deg);
+                filter: brightness(1.1);
             }
             100% { 
-                opacity: 1; 
-                transform: scale(1) rotateY(0deg) translateY(0);
-                filter: blur(0px);
+                opacity: 0;
+                transform: scale(0.5) rotate(360deg);
+                filter: brightness(0.8);
             }
         }
 
-        .close {
-            color: #ffd700;
-            float: right;
-            font-size: clamp(1.5rem, 5vw, 2.5rem);
-            font-weight: bold;
-            cursor: pointer;
-            transition: all 0.3s ease;
+        /* RANGOLI PATTERN EFFECTS */
+        .rangoli-pattern {
+            position: fixed;
+            pointer-events: none;
+            z-index: 999;
+            animation: rangoliBloom 5s ease-out forwards;
         }
 
-        .close:hover {
-            color: #ff6b35;
-            transform: scale(1.2) rotate(90deg);
+        @keyframes rangoliBloom {
+            0% { 
+                opacity: 0;
+                transform: scale(0) rotate(0deg);
+            }
+            25% { 
+                opacity: 1;
+                transform: scale(1.5) rotate(90deg);
+            }
+            50% { 
+                opacity: 1;
+                transform: scale(1.2) rotate(180deg);
+            }
+            75% { 
+                opacity: 1;
+                transform: scale(1.3) rotate(270deg);
+            }
+            100% { 
+                opacity: 0;
+                transform: scale(0.3) rotate(360deg);
+            }
         }
 
-        /* RESPONSIVE BREAKPOINTS */
+        /* JEWELRY SPARKLE EFFECTS */
+        .jewelry-sparkle {
+            position: fixed;
+            pointer-events: none;
+            z-index: 999;
+            animation: jewelryShine 4s ease-out forwards;
+        }
+
+        @keyframes jewelryShine {
+            0% { 
+                opacity: 0;
+                transform: scale(0) rotate(0deg);
+                filter: brightness(0.5) saturate(0.5);
+            }
+            20% { 
+                opacity: 1;
+                transform: scale(1.8) rotate(72deg);
+                filter: brightness(2) saturate(2);
+            }
+            40% { 
+                opacity: 0.9;
+                transform: scale(1.4) rotate(144deg);
+                filter: brightness(1.8) saturate(1.8);
+            }
+            60% { 
+                opacity: 1;
+                transform: scale(1.6) rotate(216deg);
+                filter: brightness(2.2) saturate(2.2);
+            }
+            80% { 
+                opacity: 0.8;
+                transform: scale(1.2) rotate(288deg);
+                filter: brightness(1.5) saturate(1.5);
+            }
+            100% { 
+                opacity: 0;
+                transform: scale(0.2) rotate(360deg);
+                filter: brightness(0.3) saturate(0.3);
+            }
+        }
+
+        @keyframes goldRain {
+            0% { 
+                opacity: 1;
+                transform: translateY(-20px) scale(0);
+            }
+            20% { 
+                opacity: 1;
+                transform: translateY(0px) scale(1);
+            }
+            100% { 
+                opacity: 0;
+                transform: translateY(100vh) scale(0.5);
+            }
+        }
+
+        .lakshmi-blessing {
+            position: fixed;
+            font-size: 30px;
+            pointer-events: none;
+            z-index: 999;
+            animation: blessingFloat 4s ease-out forwards;
+            color: #FFD700;
+            text-shadow: 0 0 20px #FFD700;
+        }
+
+        @keyframes blessingFloat {
+            0% { 
+                opacity: 0;
+                transform: scale(0) rotate(0deg);
+            }
+            20% { 
+                opacity: 1;
+                transform: scale(1.2) rotate(90deg);
+            }
+            80% { 
+                opacity: 1;
+                transform: scale(1) rotate(270deg);
+            }
+            100% { 
+                opacity: 0;
+                transform: scale(0.5) rotate(360deg);
+            }
+        }
+
+        .wealth-shower {
+            position: fixed;
+            font-size: 25px;
+            pointer-events: none;
+            z-index: 999;
+            animation: wealthFall 3s ease-out forwards;
+        }
+
+        @keyframes wealthFall {
+            0% { 
+                opacity: 1;
+                transform: translateY(-50px) rotate(0deg);
+            }
+            100% { 
+                opacity: 0;
+                transform: translateY(100vh) rotate(720deg);
+            }
+        }
+
+        /* ROMANTIC EFFECTS */
+        .heart-particle {
+            position: fixed;
+            font-size: 25px;
+            pointer-events: none;
+            z-index: 999;
+            animation: heartFloat 4s ease-out forwards;
+        }
+
+        /* ROSE GARDEN EFFECTS */
+        .rose-bloom {
+            position: fixed;
+            pointer-events: none;
+            z-index: 999;
+            animation: roseBloom 5s ease-out forwards;
+        }
+
+        @keyframes roseBloom {
+            0% { 
+                opacity: 0;
+                transform: scale(0) rotate(0deg);
+                filter: hue-rotate(0deg);
+            }
+            25% { 
+                opacity: 1;
+                transform: scale(1.3) rotate(90deg);
+                filter: hue-rotate(45deg);
+            }
+            50% { 
+                opacity: 1;
+                transform: scale(1.1) rotate(180deg);
+                filter: hue-rotate(90deg);
+            }
+            75% { 
+                opacity: 1;
+                transform: scale(1.2) rotate(270deg);
+                filter: hue-rotate(135deg);
+            }
+            100% { 
+                opacity: 0;
+                transform: scale(0.4) rotate(360deg);
+                filter: hue-rotate(180deg);
+            }
+        }
+
+        /* CROWN MAJESTY EFFECTS */
+        .crown-majesty {
+            position: fixed;
+            pointer-events: none;
+            z-index: 999;
+            animation: crownMajesty 6s ease-out forwards;
+        }
+
+        @keyframes crownMajesty {
+            0% { 
+                opacity: 0;
+                transform: scale(0) rotate(0deg);
+                filter: brightness(0.5) drop-shadow(0 0 0px #FFD700);
+            }
+            20% { 
+                opacity: 1;
+                transform: scale(1.5) rotate(60deg);
+                filter: brightness(2) drop-shadow(0 0 20px #FFD700);
+            }
+            40% { 
+                opacity: 1;
+                transform: scale(1.2) rotate(120deg);
+                filter: brightness(1.8) drop-shadow(0 0 30px #FFD700);
+            }
+            60% { 
+                opacity: 1;
+                transform: scale(1.4) rotate(240deg);
+                filter: brightness(2.2) drop-shadow(0 0 40px #FFD700);
+            }
+            80% { 
+                opacity: 1;
+                transform: scale(1.1) rotate(300deg);
+                filter: brightness(1.5) drop-shadow(0 0 25px #FFD700);
+            }
+            100% { 
+                opacity: 0;
+                transform: scale(0.3) rotate(360deg);
+                filter: brightness(0.8) drop-shadow(0 0 5px #FFD700);
+            }
+        }
+
+        /* STARRY NIGHT EFFECTS */
+        .star-twinkle {
+            position: fixed;
+            pointer-events: none;
+            z-index: 999;
+            animation: starTwinkle 4s ease-out forwards;
+        }
+
+        @keyframes starTwinkle {
+            0% { 
+                opacity: 0;
+                transform: scale(0) rotate(0deg);
+                filter: brightness(0.3);
+            }
+            25% { 
+                opacity: 1;
+                transform: scale(1.8) rotate(90deg);
+                filter: brightness(2.5);
+            }
+            50% { 
+                opacity: 0.7;
+                transform: scale(1.2) rotate(180deg);
+                filter: brightness(1.8);
+            }
+            75% { 
+                opacity: 1;
+                transform: scale(1.5) rotate(270deg);
+                filter: brightness(2.2);
+            }
+            100% { 
+                opacity: 0;
+                transform: scale(0.2) rotate(360deg);
+                filter: brightness(0.5);
+            }
+        }
+
+        /* BUTTERFLY KISS EFFECTS */
+        .butterfly-dance {
+            position: fixed;
+            pointer-events: none;
+            z-index: 999;
+            animation: butterflyDance 6s ease-out forwards;
+        }
+
+        @keyframes butterflyDance {
+            0% { 
+                opacity: 0;
+                transform: translateX(0px) translateY(0px) scale(0) rotate(0deg);
+            }
+            20% { 
+                opacity: 1;
+                transform: translateX(30px) translateY(-20px) scale(1.2) rotate(45deg);
+            }
+            40% { 
+                opacity: 1;
+                transform: translateX(-20px) translateY(-40px) scale(1) rotate(90deg);
+            }
+            60% { 
+                opacity: 1;
+                transform: translateX(40px) translateY(-30px) scale(1.3) rotate(180deg);
+            }
+            80% { 
+                opacity: 1;
+                transform: translateX(-30px) translateY(-50px) scale(1.1) rotate(270deg);
+            }
+            100% { 
+                opacity: 0;
+                transform: translateX(0px) translateY(-80px) scale(0.3) rotate(360deg);
+            }
+        }
+
+        @keyframes heartFloat {
+            0% { 
+                opacity: 1;
+                transform: translateY(0px) rotate(0deg) scale(0.5);
+            }
+            20% { 
+                opacity: 1;
+                transform: translateY(-20px) rotate(45deg) scale(1.2);
+            }
+            80% { 
+                opacity: 1;
+                transform: translateY(-100px) rotate(315deg) scale(1);
+            }
+            100% { 
+                opacity: 0;
+                transform: translateY(-200px) rotate(360deg) scale(0.3);
+            }
+        }
+
+        .diamond-sparkle {
+            position: fixed;
+            font-size: 20px;
+            pointer-events: none;
+            z-index: 999;
+            animation: diamondSparkle 5s ease-out forwards;
+            color: #FFD700;
+            text-shadow: 0 0 20px #FFD700;
+        }
+
+        @keyframes diamondSparkle {
+            0% { 
+                opacity: 0;
+                transform: scale(0) rotate(0deg);
+            }
+            15% { 
+                opacity: 1;
+                transform: scale(1.5) rotate(90deg);
+            }
+            85% { 
+                opacity: 1;
+                transform: scale(1) rotate(270deg);
+            }
+            100% { 
+                opacity: 0;
+                transform: scale(0.2) rotate(360deg);
+            }
+        }
+
+        /* RESPONSIVE DESIGN */
         @media (max-width: 768px) {
-            .love-declaration {
-                white-space: normal;
-                border-right: none;
-                animation: mobileReveal 3s ease-out 3s forwards;
-            }
-
-            @keyframes mobileReveal {
-                0% { 
-                    opacity: 0; 
-                    transform: translateY(30px);
-                }
-                100% { 
-                    opacity: 1; 
-                    transform: translateY(0);
-                }
-            }
-
-            .magic-buttons-grid {
+            .dhanteras-buttons {
                 grid-template-columns: 1fr;
                 gap: 2rem;
             }
 
-            .cosmic-letter {
+            .romantic-buttons {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .dhanteras-story {
                 margin: 2rem 1rem;
                 padding: 2rem;
             }
         }
 
         @media (max-width: 480px) {
-            .magic-section {
+            .dhanteras-section {
                 padding: 2rem 1rem;
             }
 
-            .cosmic-button {
-                padding: 1.2rem 2rem;
+            .golden-button {
+                padding: 1.5rem 2rem;
             }
-        }
 
-        /* REVOLUTIONARY SPECIAL EFFECTS */
-        .sparkle-burst {
-            position: fixed;
-            width: 20px;
-            height: 20px;
-            background: radial-gradient(circle, #ffd700, #ff69b4);
-            border-radius: 50%;
-            animation: sparkleExplode 2s ease-out forwards;
-            pointer-events: none;
-            z-index: 999;
-            box-shadow: 
-                0 0 20px #ffd700,
-                0 0 40px #ff69b4,
-                0 0 60px #ffd700;
-        }
-
-        @keyframes sparkleExplode {
-            0% { 
-                transform: scale(0) rotate(0deg);
-                opacity: 1;
-                filter: brightness(2) saturate(2);
-            }
-            30% { 
-                transform: scale(1.5) rotate(108deg);
-                opacity: 1;
-                filter: brightness(3) saturate(3);
-            }
-            60% { 
-                transform: scale(3) rotate(216deg);
-                opacity: 0.7;
-                filter: brightness(2) saturate(2);
-            }
-            100% { 
-                transform: scale(6) rotate(360deg);
-                opacity: 0;
-                filter: brightness(1) saturate(1);
-            }
-        }
-
-        /* SUPERNOVA EXPLOSION EFFECT */
-        .supernova-core {
-            position: fixed;
-            width: 50px;
-            height: 50px;
-            background: radial-gradient(circle, #fff 0%, #ffd700 30%, #ff6b35 60%, #ff1493 100%);
-            border-radius: 50%;
-            pointer-events: none;
-            z-index: 1000;
-            animation: supernovaBlast 4s ease-out forwards;
-            box-shadow: 
-                0 0 100px #fff,
-                0 0 200px #ffd700,
-                0 0 300px #ff6b35;
-        }
-
-        @keyframes supernovaBlast {
-            0% { 
-                transform: scale(0) rotate(0deg);
-                opacity: 1;
-                filter: brightness(10) saturate(3) blur(0px);
-            }
-            15% { 
-                transform: scale(2) rotate(90deg);
-                opacity: 1;
-                filter: brightness(15) saturate(5) blur(2px);
-            }
-            30% { 
-                transform: scale(8) rotate(180deg);
-                opacity: 0.9;
-                filter: brightness(20) saturate(8) blur(5px);
-            }
-            50% { 
-                transform: scale(20) rotate(270deg);
-                opacity: 0.7;
-                filter: brightness(25) saturate(10) blur(10px);
-            }
-            70% { 
-                transform: scale(40) rotate(360deg);
-                opacity: 0.4;
-                filter: brightness(30) saturate(12) blur(20px);
-            }
-            85% { 
-                transform: scale(80) rotate(450deg);
-                opacity: 0.2;
-                filter: brightness(35) saturate(15) blur(40px);
-            }
-            100% { 
-                transform: scale(150) rotate(540deg);
-                opacity: 0;
-                filter: brightness(40) saturate(20) blur(80px);
-            }
-        }
-
-        /* QUANTUM STAR FORMATION */
-        .quantum-star {
-            position: fixed;
-            width: 8px;
-            height: 8px;
-            pointer-events: none;
-            z-index: 999;
-        }
-
-        .quantum-star::before {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(circle, #fff, #ffd700);
-            border-radius: 50%;
-            animation: quantumPulse 3s ease-in-out infinite;
-        }
-
-        .quantum-star::after {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 40px;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, #ffd700, transparent);
-            transform: translate(-50%, -50%);
-            animation: quantumBeam 3s ease-in-out infinite;
-        }
-
-        @keyframes quantumPulse {
-            0%, 100% { 
-                transform: scale(1);
-                box-shadow: 0 0 20px #ffd700;
-            }
-            50% { 
-                transform: scale(3);
-                box-shadow: 0 0 80px #ffd700, 0 0 120px #ff69b4;
-            }
-        }
-
-        @keyframes quantumBeam {
-            0%, 100% { 
-                transform: translate(-50%, -50%) rotate(0deg) scaleX(1);
-                opacity: 0.8;
-            }
-            25% { 
-                transform: translate(-50%, -50%) rotate(90deg) scaleX(2);
-                opacity: 1;
-            }
-            50% { 
-                transform: translate(-50%, -50%) rotate(180deg) scaleX(3);
-                opacity: 0.9;
-            }
-            75% { 
-                transform: translate(-50%, -50%) rotate(270deg) scaleX(2);
-                opacity: 1;
-            }
-        }
-
-        /* DIMENSIONAL PORTAL EFFECT */
-        .dimensional-portal {
-            position: fixed;
-            width: 300px;
-            height: 300px;
-            pointer-events: none;
-            z-index: 998;
-            animation: portalFormation 6s ease-out forwards;
-        }
-
-        .portal-ring {
-            position: absolute;
-            border-radius: 50%;
-            border: 3px solid;
-            animation: portalSpin 2s linear infinite;
-        }
-
-        .portal-ring:nth-child(1) {
-            width: 100%;
-            height: 100%;
-            border-color: #ffd700;
-            animation-duration: 2s;
-        }
-
-        .portal-ring:nth-child(2) {
-            width: 80%;
-            height: 80%;
-            top: 10%;
-            left: 10%;
-            border-color: #ff69b4;
-            animation-duration: 1.5s;
-            animation-direction: reverse;
-        }
-
-        .portal-ring:nth-child(3) {
-            width: 60%;
-            height: 60%;
-            top: 20%;
-            left: 20%;
-            border-color: #9370db;
-            animation-duration: 1s;
-        }
-
-        .portal-ring:nth-child(4) {
-            width: 40%;
-            height: 40%;
-            top: 30%;
-            left: 30%;
-            border-color: #00bfff;
-            animation-duration: 0.8s;
-            animation-direction: reverse;
-        }
-
-        .portal-center {
-            position: absolute;
-            width: 20%;
-            height: 20%;
-            top: 40%;
-            left: 40%;
-            background: radial-gradient(circle, #fff, transparent);
-            border-radius: 50%;
-            animation: portalCore 3s ease-in-out infinite;
-        }
-
-        @keyframes portalFormation {
-            0% { 
-                transform: scale(0) rotate(0deg);
-                opacity: 0;
-                filter: blur(20px);
-            }
-            20% { 
-                transform: scale(0.5) rotate(72deg);
-                opacity: 0.7;
-                filter: blur(10px);
-            }
-            40% { 
-                transform: scale(1) rotate(144deg);
-                opacity: 1;
-                filter: blur(0px);
-            }
-            80% { 
-                transform: scale(1.2) rotate(288deg);
-                opacity: 0.8;
-                filter: blur(5px);
-            }
-            100% { 
-                transform: scale(0) rotate(360deg);
-                opacity: 0;
-                filter: blur(30px);
-            }
-        }
-
-        @keyframes portalSpin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        @keyframes portalCore {
-            0%, 100% { 
-                transform: scale(1);
-                box-shadow: 0 0 50px #fff;
-            }
-            50% { 
-                transform: scale(2);
-                box-shadow: 0 0 150px #fff, 0 0 200px #ffd700;
-            }
-        }
-
-        /* COSMIC WAVE EFFECT */
-        .cosmic-wave {
-            position: fixed;
-            width: 100px;
-            height: 100px;
-            border: 4px solid #ffd700;
-            border-radius: 50%;
-            pointer-events: none;
-            z-index: 997;
-            animation: waveExpansion 3s ease-out forwards;
-        }
-
-        @keyframes waveExpansion {
-            0% { 
-                transform: scale(0);
-                opacity: 1;
-                border-color: #ffd700;
-                box-shadow: 0 0 50px #ffd700;
-            }
-            25% { 
-                transform: scale(2);
-                opacity: 0.8;
-                border-color: #ff69b4;
-                box-shadow: 0 0 100px #ff69b4;
-            }
-            50% { 
-                transform: scale(5);
-                opacity: 0.6;
-                border-color: #9370db;
-                box-shadow: 0 0 150px #9370db;
-            }
-            75% { 
-                transform: scale(10);
-                opacity: 0.3;
-                border-color: #00bfff;
-                box-shadow: 0 0 200px #00bfff;
-            }
-            100% { 
-                transform: scale(20);
-                opacity: 0;
-                border-color: transparent;
-                box-shadow: none;
-            }
-        }
-
-        /* LOVE HEART EXPLOSION */
-        .love-heart-explosion {
-            position: fixed;
-            font-size: 30px;
-            pointer-events: none;
-            z-index: 999;
-            animation: heartExplode 4s ease-out forwards;
-        }
-
-        @keyframes heartExplode {
-            0% { 
-                transform: scale(0) rotate(0deg);
-                opacity: 1;
-                filter: hue-rotate(0deg) brightness(2);
-            }
-            20% { 
-                transform: scale(1.5) rotate(72deg);
-                opacity: 1;
-                filter: hue-rotate(90deg) brightness(3);
-            }
-            40% { 
-                transform: scale(2.5) rotate(144deg);
-                opacity: 0.9;
-                filter: hue-rotate(180deg) brightness(4);
-            }
-            60% { 
-                transform: scale(4) rotate(216deg);
-                opacity: 0.7;
-                filter: hue-rotate(270deg) brightness(3);
-            }
-            80% { 
-                transform: scale(6) rotate(288deg);
-                opacity: 0.4;
-                filter: hue-rotate(360deg) brightness(2);
-            }
-            100% { 
-                transform: scale(10) rotate(360deg);
-                opacity: 0;
-                filter: hue-rotate(450deg) brightness(1);
-            }
-        }
-
-        /* GALAXY SPIRAL ARMS */
-        .galaxy-arm {
-            position: fixed;
-            width: 400px;
-            height: 4px;
-            background: linear-gradient(90deg, 
-                transparent 0%, 
-                #ffd700 20%, 
-                #ff69b4 40%, 
-                #9370db 60%, 
-                #00bfff 80%, 
-                transparent 100%
-            );
-            pointer-events: none;
-            z-index: 996;
-            border-radius: 2px;
-            animation: galaxyRotation 8s ease-out forwards;
-            transform-origin: 0% 50%;
-            box-shadow: 0 0 20px #ffd700;
-        }
-
-        @keyframes galaxyRotation {
-            0% { 
-                transform: rotate(0deg) scaleX(0);
-                opacity: 0;
-            }
-            20% { 
-                transform: rotate(72deg) scaleX(0.5);
-                opacity: 1;
-            }
-            40% { 
-                transform: rotate(144deg) scaleX(1);
-                opacity: 1;
-            }
-            60% { 
-                transform: rotate(216deg) scaleX(1.2);
-                opacity: 0.8;
-            }
-            80% { 
-                transform: rotate(288deg) scaleX(1);
-                opacity: 0.5;
-            }
-            100% { 
-                transform: rotate(360deg) scaleX(0.3);
-                opacity: 0;
-            }
-        }
-
-        /* TIME WARP EFFECT */
-        .time-warp {
-            position: fixed;
-            width: 200px;
-            height: 200px;
-            pointer-events: none;
-            z-index: 995;
-            animation: timeDistortion 5s ease-out forwards;
-        }
-
-        .warp-ring {
-            position: absolute;
-            border: 2px solid;
-            border-radius: 50%;
-            animation: warpPulse 1s ease-in-out infinite;
-        }
-
-        .warp-ring:nth-child(1) {
-            width: 100%;
-            height: 100%;
-            border-color: #ffd700;
-            animation-delay: 0s;
-        }
-
-        .warp-ring:nth-child(2) {
-            width: 80%;
-            height: 80%;
-            top: 10%;
-            left: 10%;
-            border-color: #ff69b4;
-            animation-delay: 0.2s;
-        }
-
-        .warp-ring:nth-child(3) {
-            width: 60%;
-            height: 60%;
-            top: 20%;
-            left: 20%;
-            border-color: #9370db;
-            animation-delay: 0.4s;
-        }
-
-        .warp-ring:nth-child(4) {
-            width: 40%;
-            height: 40%;
-            top: 30%;
-            left: 30%;
-            border-color: #00bfff;
-            animation-delay: 0.6s;
-        }
-
-        @keyframes timeDistortion {
-            0% { 
-                transform: scale(0) rotate(0deg);
-                opacity: 0;
-                filter: blur(20px);
-            }
-            30% { 
-                transform: scale(1) rotate(180deg);
-                opacity: 1;
-                filter: blur(0px);
-            }
-            70% { 
-                transform: scale(2) rotate(540deg);
-                opacity: 0.7;
-                filter: blur(10px);
-            }
-            100% { 
-                transform: scale(5) rotate(1080deg);
-                opacity: 0;
-                filter: blur(50px);
-            }
-        }
-
-        @keyframes warpPulse {
-            0%, 100% { 
-                transform: scale(1);
-                opacity: 1;
-            }
-            50% { 
-                transform: scale(1.3);
-                opacity: 0.5;
-            }
-        }
-
-        /* MAGICAL STAR SHAPES */
-        .magic-star {
-            position: fixed;
-            pointer-events: none;
-            z-index: 998;
-            animation: starTwinkle 3s ease-out forwards;
-        }
-
-        .star-shape {
-            width: 30px;
-            height: 30px;
-            background: linear-gradient(45deg, #ffd700, #ffed4e, #ff69b4);
-            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-            filter: drop-shadow(0 0 15px #ffd700);
-            animation: starSpin 2s linear infinite;
-        }
-
-        @keyframes starSpin {
-            0% { transform: rotate(0deg) scale(1); }
-            50% { transform: rotate(180deg) scale(1.3); }
-            100% { transform: rotate(360deg) scale(1); }
-        }
-
-        @keyframes starTwinkle {
-            0% { 
-                opacity: 0;
-                transform: scale(0) translateY(0px);
-                filter: brightness(1) hue-rotate(0deg);
-            }
-            20% { 
-                opacity: 1;
-                transform: scale(1.2) translateY(-20px);
-                filter: brightness(2) hue-rotate(90deg);
-            }
-            40% { 
-                opacity: 0.8;
-                transform: scale(1) translateY(-40px);
-                filter: brightness(3) hue-rotate(180deg);
-            }
-            60% { 
-                opacity: 0.6;
-                transform: scale(1.5) translateY(-60px);
-                filter: brightness(2) hue-rotate(270deg);
-            }
-            80% { 
-                opacity: 0.4;
-                transform: scale(0.8) translateY(-80px);
-                filter: brightness(1.5) hue-rotate(360deg);
-            }
-            100% { 
-                opacity: 0;
-                transform: scale(0.3) translateY(-120px);
-                filter: brightness(1) hue-rotate(450deg);
-            }
-        }
-
-        /* HYPERNOVA STAR BIRTH EFFECT */
-        .hypernova-core {
-            position: fixed;
-            width: 80px;
-            height: 80px;
-            background: radial-gradient(circle, #fff 0%, #ffd700 20%, #ff6b35 40%, #ff1493 60%, #9370db 80%, #000 100%);
-            border-radius: 50%;
-            pointer-events: none;
-            z-index: 1000;
-            animation: hypernovaExplosion 6s ease-out forwards;
-            box-shadow: 
-                0 0 200px #fff,
-                0 0 400px #ffd700,
-                0 0 600px #ff6b35,
-                0 0 800px #ff1493;
-        }
-
-        @keyframes hypernovaExplosion {
-            0% { 
-                transform: scale(0) rotate(0deg);
-                opacity: 1;
-                filter: brightness(50) saturate(10) blur(0px);
-            }
-            10% { 
-                transform: scale(1) rotate(180deg);
-                opacity: 1;
-                filter: brightness(100) saturate(20) blur(5px);
-            }
-            25% { 
-                transform: scale(5) rotate(360deg);
-                opacity: 0.9;
-                filter: brightness(150) saturate(30) blur(15px);
-            }
-            50% { 
-                transform: scale(15) rotate(720deg);
-                opacity: 0.7;
-                filter: brightness(200) saturate(40) blur(30px);
-            }
-            75% { 
-                transform: scale(40) rotate(1080deg);
-                opacity: 0.4;
-                filter: brightness(250) saturate(50) blur(60px);
-            }
-            90% { 
-                transform: scale(80) rotate(1440deg);
-                opacity: 0.2;
-                filter: brightness(300) saturate(60) blur(120px);
-            }
-            100% { 
-                transform: scale(200) rotate(1800deg);
-                opacity: 0;
-                filter: brightness(400) saturate(80) blur(200px);
-            }
-        }
-
-        /* GALACTIC LOVE STORM */
-        .galactic-storm-particle {
-            position: fixed;
-            width: 12px;
-            height: 12px;
-            pointer-events: none;
-            z-index: 999;
-            animation: stormParticle 4s ease-out forwards;
-        }
-
-        .storm-particle-core {
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(circle, #fff, #ffd700);
-            border-radius: 50%;
-            box-shadow: 0 0 30px #ffd700, 0 0 60px #ff69b4;
-            animation: particlePulse 0.5s ease-in-out infinite alternate;
-        }
-
-        .storm-particle-trail {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 80px;
-            height: 3px;
-            background: linear-gradient(90deg, #ffd700, #ff69b4, transparent);
-            transform: translate(-50%, -50%);
-            border-radius: 2px;
-            animation: trailRotate 2s linear infinite;
-        }
-
-        @keyframes stormParticle {
-            0% { 
-                transform: scale(0) rotate(0deg);
-                opacity: 0;
-            }
-            20% { 
-                transform: scale(1.5) rotate(144deg);
-                opacity: 1;
-            }
-            80% { 
-                transform: scale(1) rotate(1296deg);
-                opacity: 1;
-            }
-            100% { 
-                transform: scale(0.3) rotate(1800deg);
-                opacity: 0;
-            }
-        }
-
-        @keyframes particlePulse {
-            0% { transform: scale(1); filter: brightness(2); }
-            100% { transform: scale(1.8); filter: brightness(5); }
-        }
-
-        @keyframes trailRotate {
-            0% { transform: translate(-50%, -50%) rotate(0deg) scaleX(1); }
-            50% { transform: translate(-50%, -50%) rotate(180deg) scaleX(2); }
-            100% { transform: translate(-50%, -50%) rotate(360deg) scaleX(1); }
-        }
-
-        /* UNIVERSAL LOVE MATRIX */
-        .love-matrix-node {
-            position: fixed;
-            width: 20px;
-            height: 20px;
-            background: radial-gradient(circle, #fff, #ffd700);
-            border-radius: 50%;
-            pointer-events: none;
-            z-index: 998;
-            box-shadow: 0 0 40px #ffd700, 0 0 80px #ff69b4;
-            animation: matrixNode 8s ease-in-out forwards;
-        }
-
-        .matrix-connection {
-            position: fixed;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, #ffd700, #ff69b4, transparent);
-            pointer-events: none;
-            z-index: 997;
-            animation: connectionPulse 3s ease-in-out infinite;
-        }
-
-        @keyframes matrixNode {
-            0% { 
-                transform: scale(0) rotate(0deg);
-                opacity: 0;
-                filter: brightness(1);
-            }
-            20% { 
-                transform: scale(1.5) rotate(72deg);
-                opacity: 1;
-                filter: brightness(3);
-            }
-            50% { 
-                transform: scale(1) rotate(180deg);
-                opacity: 1;
-                filter: brightness(5);
-            }
-            80% { 
-                transform: scale(1.2) rotate(288deg);
-                opacity: 0.8;
-                filter: brightness(3);
-            }
-            100% { 
-                transform: scale(0.5) rotate(360deg);
-                opacity: 0;
-                filter: brightness(1);
-            }
-        }
-
-        @keyframes connectionPulse {
-            0%, 100% { 
-                opacity: 0.3;
-                transform: scaleY(1);
-                filter: brightness(1);
-            }
-            50% { 
-                opacity: 1;
-                transform: scaleY(3);
-                filter: brightness(4);
-            }
-        }
-
-        /* COSMIC HEART NEBULA */
-        .heart-nebula {
-            position: fixed;
-            width: 300px;
-            height: 300px;
-            pointer-events: none;
-            z-index: 996;
-            animation: nebulaFormation 10s ease-out forwards;
-        }
-
-        .nebula-cloud {
-            position: absolute;
-            border-radius: 50%;
-            animation: cloudSwirl 8s linear infinite;
-        }
-
-        .nebula-cloud:nth-child(1) {
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(ellipse, rgba(255, 105, 180, 0.6) 0%, rgba(255, 20, 147, 0.4) 30%, transparent 70%);
-            animation-duration: 8s;
-        }
-
-        .nebula-cloud:nth-child(2) {
-            width: 80%;
-            height: 80%;
-            top: 10%;
-            left: 10%;
-            background: radial-gradient(ellipse, rgba(255, 215, 0, 0.7) 0%, rgba(255, 140, 0, 0.5) 40%, transparent 80%);
-            animation-duration: 6s;
-            animation-direction: reverse;
-        }
-
-        .nebula-cloud:nth-child(3) {
-            width: 60%;
-            height: 60%;
-            top: 20%;
-            left: 20%;
-            background: radial-gradient(ellipse, rgba(147, 112, 219, 0.8) 0%, rgba(138, 43, 226, 0.6) 50%, transparent 90%);
-            animation-duration: 4s;
-        }
-
-        @keyframes nebulaFormation {
-            0% { 
-                transform: scale(0) rotate(0deg);
-                opacity: 0;
-                filter: blur(50px);
-            }
-            30% { 
-                transform: scale(1) rotate(108deg);
-                opacity: 0.8;
-                filter: blur(20px);
-            }
-            70% { 
-                transform: scale(1.5) rotate(252deg);
-                opacity: 1;
-                filter: blur(5px);
-            }
-            100% { 
-                transform: scale(3) rotate(360deg);
-                opacity: 0;
-                filter: blur(100px);
-            }
-        }
-
-        @keyframes cloudSwirl {
-            0% { transform: rotate(0deg) scale(1); }
-            50% { transform: rotate(180deg) scale(1.3); }
-            100% { transform: rotate(360deg) scale(1); }
-        }
-
-        /* STARDUST CASCADE */
-        .stardust-particle {
-            position: fixed;
-            width: 6px;
-            height: 6px;
-            background: radial-gradient(circle, #fff, #ffd700);
-            border-radius: 50%;
-            pointer-events: none;
-            z-index: 999;
-            box-shadow: 0 0 20px #ffd700;
-            animation: stardustFall 5s ease-out forwards;
-        }
-
-        .stardust-particle::before {
-            content: '';
-            position: absolute;
-            top: -2px;
-            left: -2px;
-            right: -2px;
-            bottom: -2px;
-            background: radial-gradient(circle, transparent 30%, #ffd700 70%, transparent 100%);
-            border-radius: 50%;
-            animation: stardustGlow 1s ease-in-out infinite alternate;
-        }
-
-        @keyframes stardustFall {
-            0% { 
-                transform: translateY(-100px) translateX(0px) rotate(0deg) scale(0);
-                opacity: 0;
+            .romantic-button {
+                padding: 1.5rem 2rem;
             }
-            10% { 
-                transform: translateY(0px) translateX(20px) rotate(36deg) scale(1);
-                opacity: 1;
-            }
-            50% { 
-                transform: translateY(50vh) translateX(-30px) rotate(180deg) scale(1.5);
-                opacity: 1;
-            }
-            90% { 
-                transform: translateY(90vh) translateX(40px) rotate(324deg) scale(1);
-                opacity: 0.8;
-            }
-            100% { 
-                transform: translateY(110vh) translateX(0px) rotate(360deg) scale(0.3);
-                opacity: 0;
-            }
-        }
-
-        @keyframes stardustGlow {
-            0% { opacity: 0.5; transform: scale(1); }
-            100% { opacity: 1; transform: scale(2); }
-        }
-
-        /* LOVE AURORA BOREALIS */
-        .aurora-wave {
-            position: fixed;
-            width: 100%;
-            height: 200px;
-            pointer-events: none;
-            z-index: 995;
-            background: linear-gradient(90deg, 
-                transparent 0%,
-                rgba(255, 105, 180, 0.6) 20%,
-                rgba(255, 215, 0, 0.7) 40%,
-                rgba(147, 112, 219, 0.8) 60%,
-                rgba(0, 191, 255, 0.6) 80%,
-                transparent 100%
-            );
-            animation: auroraFlow 12s ease-in-out infinite;
-            filter: blur(3px);
-        }
-
-        @keyframes auroraFlow {
-            0%, 100% { 
-                transform: translateX(-100%) skewX(-15deg) scaleY(1);
-                opacity: 0.6;
-            }
-            25% { 
-                transform: translateX(-50%) skewX(10deg) scaleY(1.5);
-                opacity: 0.9;
-            }
-            50% { 
-                transform: translateX(0%) skewX(-5deg) scaleY(2);
-                opacity: 1;
-            }
-            75% { 
-                transform: translateX(50%) skewX(15deg) scaleY(1.2);
-                opacity: 0.8;
-            }
-        }
-
-        /* CELESTIAL FIREWORKS */
-        .celestial-firework {
-            position: fixed;
-            pointer-events: none;
-            z-index: 1000;
-        }
-
-        .firework-burst {
-            position: absolute;
-            width: 8px;
-            height: 8px;
-            background: radial-gradient(circle, #fff, #ffd700);
-            border-radius: 50%;
-            animation: fireworkExplode 3s ease-out forwards;
-        }
-
-        @keyframes fireworkExplode {
-            0% { 
-                transform: scale(0) rotate(0deg);
-                opacity: 1;
-                box-shadow: 0 0 20px #ffd700;
-            }
-            20% { 
-                transform: scale(2) rotate(72deg);
-                opacity: 1;
-                box-shadow: 0 0 60px #ffd700, 0 0 120px #ff69b4;
-            }
-            50% { 
-                transform: scale(4) rotate(180deg);
-                opacity: 0.8;
-                box-shadow: 0 0 100px #ffd700, 0 0 200px #ff69b4, 0 0 300px #9370db;
-            }
-            80% { 
-                transform: scale(8) rotate(288deg);
-                opacity: 0.4;
-                box-shadow: 0 0 150px #ffd700, 0 0 300px #ff69b4, 0 0 450px #9370db;
-            }
-            100% { 
-                transform: scale(15) rotate(360deg);
-                opacity: 0;
-                box-shadow: none;
-            }
-        }
-
-        /* COSMIC DNA HELIX */
-        .dna-helix {
-            position: fixed;
-            width: 400px;
-            height: 600px;
-            pointer-events: none;
-            z-index: 998;
-            animation: helixRotation 8s ease-out forwards;
-        }
-
-        .dna-strand {
-            position: absolute;
-            width: 6px;
-            height: 100%;
-            background: linear-gradient(180deg, 
-                #ffd700 0%,
-                #ff69b4 25%,
-                #9370db 50%,
-                #00bfff 75%,
-                #ffd700 100%
-            );
-            border-radius: 3px;
-            animation: strandWave 2s ease-in-out infinite;
-        }
-
-        .dna-strand:nth-child(1) {
-            left: 30%;
-            animation-delay: 0s;
-        }
-
-        .dna-strand:nth-child(2) {
-            right: 30%;
-            animation-delay: 1s;
-        }
-
-        .dna-connection {
-            position: absolute;
-            width: 40%;
-            height: 3px;
-            background: linear-gradient(90deg, #ffd700, #ff69b4);
-            left: 30%;
-            border-radius: 2px;
-            animation: connectionGlow 1s ease-in-out infinite alternate;
-        }
-
-        @keyframes helixRotation {
-            0% { 
-                transform: scale(0) rotateY(0deg);
-                opacity: 0;
-            }
-            30% { 
-                transform: scale(1) rotateY(180deg);
-                opacity: 1;
-            }
-            70% { 
-                transform: scale(1.2) rotateY(540deg);
-                opacity: 1;
-            }
-            100% { 
-                transform: scale(0.5) rotateY(720deg);
-                opacity: 0;
-            }
-        }
-
-        @keyframes strandWave {
-            0%, 100% { transform: translateX(0px) scaleX(1); }
-            50% { transform: translateX(20px) scaleX(1.5); }
-        }
-
-        @keyframes connectionGlow {
-            0% { opacity: 0.5; box-shadow: 0 0 10px #ffd700; }
-            100% { opacity: 1; box-shadow: 0 0 30px #ffd700, 0 0 60px #ff69b4; }
-        }
-
-        /* LIGHTSPEED LOVE BEAM */
-        .lightspeed-beam {
-            position: fixed;
-            width: 8px;
-            height: 100vh;
-            background: linear-gradient(180deg, 
-                transparent 0%,
-                #fff 10%,
-                #ffd700 30%,
-                #ff69b4 50%,
-                #9370db 70%,
-                #fff 90%,
-                transparent 100%
-            );
-            pointer-events: none;
-            z-index: 1000;
-            animation: lightspeedTravel 2s ease-out forwards;
-            box-shadow: 0 0 50px #fff, 0 0 100px #ffd700, 0 0 200px #ff69b4;
-            filter: blur(2px);
-        }
-
-        @keyframes lightspeedTravel {
-            0% { 
-                transform: translateX(-100vw) scaleY(0) rotate(-45deg);
-                opacity: 0;
-            }
-            20% { 
-                transform: translateX(50vw) scaleY(1) rotate(-45deg);
-                opacity: 1;
-            }
-            80% { 
-                transform: translateX(50vw) scaleY(1) rotate(-45deg);
-                opacity: 1;
-            }
-            100% { 
-                transform: translateX(200vw) scaleY(0) rotate(-45deg);
-                opacity: 0;
-            }
-        }
-
-        /* CONSTELLATION EFFECT */
-        .constellation-line {
-            position: fixed;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, #ffd700, transparent);
-            pointer-events: none;
-            z-index: 996;
-            opacity: 0;
-            animation: constellationDraw 2s ease-out forwards;
-        }
-
-        @keyframes constellationDraw {
-            0% { 
-                width: 0;
-                opacity: 0;
-            }
-            50% { 
-                opacity: 1;
-            }
-            100% { 
-                width: 100px;
-                opacity: 0;
-            }
-        }
-
-        /* ULTRA RESPONSIVE UTILITIES */
-        .responsive-text {
-            font-size: clamp(0.9rem, 2.5vw, 1.2rem);
-        }
-
-        .responsive-spacing {
-            margin: clamp(1rem, 4vw, 3rem) 0;
-        }
-
-        .responsive-padding {
-            padding: clamp(1rem, 4vw, 2rem);
         }
     </style>
   <style>@view-transition { navigation: auto; }</style>
   <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
   <script src="https://cdn.tailwindcss.com" type="text/javascript"></script>
  </head>
- <body><!-- COSMIC UNIVERSE BACKGROUND -->
-  <div class="cosmic-universe"></div>
-  <div class="nebula-layer"></div><!-- PARTICLE UNIVERSE -->
-  <div class="particle-universe" id="particleUniverse"></div><!-- LOVE CONSTELLATION -->
-  <div class="love-constellation" id="loveConstellation"></div><!-- FLOATING MAGIC ELEMENTS -->
-  <div class="floating-magic" id="floatingMagic"></div><!-- MAIN CONTAINER -->
-  <div class="magic-container"><!-- HERO SECTION -->
-   <div class="magic-section">
-    <h1 class="cosmic-title" id="mainTitle">Happy Dhanteras My Universe</h1>
-    <p class="cosmic-subtitle" id="subtitleMessage">My Golden Queen Purvi 💛</p>
-    <div class="love-declaration" id="loveDeclaration">
-     You are my entire cosmos, my brightest star, my infinite love... ✨
-    </div><!-- INTERACTIVE MAGIC BUTTONS -->
-    <div class="magic-buttons-grid"><button class="cosmic-button" id="magicButton1" onclick="createHypernovaStarBirth(event)"> <span id="magicButtonText1">🌟 Hypernova Star Birth 🌟</span> </button> <button class="cosmic-button" id="magicButton2" onclick="summonGalacticLoveStorm(event)"> <span id="magicButtonText2">💫 Galactic Love Storm 💫</span> </button> <button class="cosmic-button" id="magicButton3" onclick="openDimensionalPortal(event)"> <span id="magicButtonText3">💖 Dimensional Love Portal 💖</span> </button> <button class="cosmic-button" onclick="createTimeWarpEffect(event)"> ⏰ Time Warp Love Storm ⏰ </button> <button class="cosmic-button" onclick="triggerCosmicWaves(event)"> 🌊 Cosmic Love Waves 🌊 </button> <button class="cosmic-button" onclick="createHeartExplosion(event)"> 💥 Heart Supernova Blast 💥 </button> <button class="cosmic-button" onclick="activateQuantumField(event)"> ⚛️ Quantum Love Field ⚛️ </button> <button class="cosmic-button" onclick="createUniversalLoveMatrix(event)"> 🌌 Universal Love Matrix 🌌 </button> <button class="cosmic-button" onclick="triggerCosmicHeartNebula(event)"> 💝 Cosmic Heart Nebula 💝 </button> <button class="cosmic-button" onclick="activateStardustCascade(event)"> ✨ Stardust Cascade ✨ </button> <button class="cosmic-button" onclick="createLoveAurora(event)"> 🌈 Love Aurora Borealis 🌈 </button> <button class="cosmic-button" onclick="summonCelestialFireworks(event)"> 🎆 Celestial Fireworks 🎆 </button> <button class="cosmic-button" onclick="activateCosmicDNA(event)"> 🧬 Cosmic DNA Helix 🧬 </button> <button class="cosmic-button" onclick="createLightspeedLove(event)"> ⚡ Lightspeed Love Beam ⚡ </button> <button class="cosmic-button" onclick="showCosmicMessage()"> 🔮 Reveal Cosmic Secret 🔮 </button>
-    </div>
-   </div><!-- COSMIC LETTER SECTION -->
-   <div class="magic-section">
-    <div class="cosmic-letter">
-     <h2 class="letter-title" id="letterTitle">To My Cosmic Queen</h2>
-     <div class="letter-content" id="letterContent">
-      My dearest Purvi,<br><br>
-       You are not just my love - you are my entire universe. Every star in the sky pales in comparison to the light you bring into my life. When I look at you, I see galaxies of possibilities, nebulae of dreams, and constellations of our future together.<br><br>
-       This Dhanteras, I don't wish for gold or silver, because I already possess the most precious treasure in existence - your heart. Your love is more valuable than all the riches in the cosmos, more beautiful than all the auroras dancing across the heavens.<br><br>
-       Every moment with you feels like floating through a magical dimension where time stops and only love exists. You've transformed my ordinary world into an extraordinary universe filled with wonder, magic, and infinite possibilities.<br><br>
-       I promise to love you beyond the boundaries of space and time, to cherish you like the rarest cosmic phenomenon, and to make every day of our lives as magical as the birth of a new star.<br><br>
-       You are my cosmic queen, my universal constant, my infinite love story. Happy Dhanteras, my beautiful universe! 💛✨🌌
+ <body><!-- GOLDEN DHANTERAS BACKGROUND -->
+  <div class="dhanteras-universe"></div><!-- GOLDEN PARTICLES -->
+  <div class="golden-particles" id="goldenParticles"></div><!-- LOTUS DECORATIONS -->
+  <div class="lotus-decoration">
+   🪷
+  </div>
+  <div class="lotus-decoration">
+   🪷
+  </div>
+  <div class="lotus-decoration">
+   🪷
+  </div>
+  <div class="lotus-decoration">
+   🪷
+  </div><!-- MAIN CONTAINER -->
+  <div class="dhanteras-container"><!-- HERO SECTION -->
+   <div class="dhanteras-section">
+    <h1 class="golden-title" id="mainTitle">Happy Dhanteras 2024</h1>
+    <p class="prosperity-subtitle" id="subtitleMessage">May Gold &amp; Silver Bless You 🪙</p>
+    <div class="wealth-blessing" id="wealthBlessing">
+     May Goddess Lakshmi shower you with endless prosperity, may your home be filled with golden light, and may wealth flow like a river into your life! ✨🙏
+    </div><!-- DHANTERAS MAGIC BUTTONS -->
+    <div class="dhanteras-buttons"><button class="golden-button" onclick="createGoldRain(event)" id="goldButton"> 🪙 Golden Rain 🪙 </button> <button class="golden-button" onclick="showLakshmiBlessings(event)" id="lakshmiButton"> 🙏 Lakshmi Blessings 🙏 </button> <button class="golden-button" onclick="createWealthShower(event)" id="prosperityButton"> 💰 Wealth Shower 💰 </button> <button class="golden-button" onclick="createDiyaLights(event)" id="diyaButton"> 🪔 Sacred Diyas 🪔 </button> <button class="golden-button" onclick="showRangoliBlessings(event)" id="rangoliButton"> 🌺 Rangoli Magic 🌺 </button> <button class="golden-button" onclick="createJewelrySparkle(event)" id="jewelryButton"> 💎 Jewelry Sparkle 💎 </button>
+    </div><!-- ROMANTIC DHANTERAS BUTTONS FOR GIRLFRIEND -->
+    <div class="romantic-section">
+     <h3 class="romantic-title">💖 Special For My Beautiful Princess 💖</h3>
+     <div class="romantic-buttons"><button class="romantic-button" onclick="showSpecialMessage(event)" id="specialButton"> 💕 My Love Letter 💕 </button> <button class="romantic-button" onclick="createGoldenHearts(event)" id="heartsButton"> 💖 Golden Hearts Rain 💖 </button> <button class="romantic-button" onclick="showForeverPromise(event)" id="foreverButton"> 💍 Forever Promise 💍 </button> <button class="romantic-button" onclick="createRoseGarden(event)" id="roseButton"> 🌹 Rose Garden 🌹 </button> <button class="romantic-button" onclick="showQueenCrown(event)" id="queenButton"> 👑 My Queen 👑 </button> <button class="romantic-button" onclick="createStarryNight(event)" id="starButton"> ⭐ Starry Dreams ⭐ </button> <button class="romantic-button" onclick="showSoulmate(event)" id="soulmateButton"> 💞 My Soulmate 💞 </button> <button class="romantic-button" onclick="createButterflyKisses(event)" id="butterflyButton"> 🦋 Butterfly Kisses 🦋 </button>
      </div>
     </div>
-   </div><!-- FINAL COSMIC MESSAGE -->
-   <div class="magic-section">
-    <div class="final-cosmic-message" id="finalMessage">
-     Forever in your magical orbit, my cosmic queen! 🌌💛✨
+   </div><!-- DHANTERAS STORY SECTION -->
+   <div class="dhanteras-section">
+    <div class="dhanteras-story">
+     <h2 class="story-title" id="dhanterasTitle">The Sacred Day of Wealth</h2>
+     <div class="story-content" id="dhanterasContent">
+      On this auspicious day of Dhanteras, we celebrate the divine blessings of Goddess Lakshmi and Lord Dhanvantari. This sacred festival marks the beginning of the five-day Diwali celebration, where we honor wealth, health, and prosperity.<br><br>
+       Legend tells us that on this day, Goddess Lakshmi emerged from the ocean during the churning of the cosmic sea, bringing with her the promise of abundance and fortune. It is believed that purchasing gold, silver, or new utensils on Dhanteras invites prosperity into our homes.<br><br>
+       Lord Dhanvantari, the divine physician, also appeared on this day carrying the nectar of immortality, blessing us with good health and longevity. The lighting of diyas and rangoli decorations welcome positive energy and drive away negativity.<br><br>
+       May this Dhanteras illuminate your path with golden opportunities, fill your treasure chest with abundant wealth, and bless your family with everlasting happiness and prosperity! 🪙✨🙏
+     </div>
     </div>
-   </div>
-  </div><!-- COSMIC MODAL -->
-  <div id="cosmicModal" class="cosmic-modal">
-   <div class="modal-content"><span class="close" onclick="closeCosmicModal()">×</span>
-    <h2 style="color: #ffd700; margin-bottom: 2rem; font-size: clamp(1.5rem, 5vw, 2.5rem);">💫 Cosmic Secret Revealed 💫</h2>
-    <p style="font-size: clamp(1rem, 3vw, 1.4rem); line-height: 1.8; color: #ffed4e;">Purvi, this entire magical universe was created just for you! Every particle, every star, every cosmic dance was designed to show you how infinite my love is. You are the center of my universe, the gravity that holds my world together, and the light that guides me through every dimension of existence! 🌌💛✨</p>
+   </div><!-- FINAL BLESSING -->
+   <div class="dhanteras-section">
+    <div class="final-blessing" id="finalBlessing">
+     May your life shine like pure gold! 🪙✨
+    </div>
    </div>
   </div>
   <script>
         // Configuration object
         const defaultConfig = {
-            main_title: "Happy Dhanteras My Universe",
-            subtitle_message: "My Golden Queen Purvi 💛",
-            love_declaration: "You are my entire cosmos, my brightest star, my infinite love... ✨",
-            magic_button_1: "🌟 Hypernova Star Birth 🌟",
-            magic_button_2: "💫 Galactic Love Storm 💫",
-            magic_button_3: "💖 Dimensional Love Portal 💖",
-            letter_title: "To My Cosmic Queen",
-            letter_content: "My dearest Purvi,\n\nYou are not just my love - you are my entire universe. Every star in the sky pales in comparison to the light you bring into my life. When I look at you, I see galaxies of possibilities, nebulae of dreams, and constellations of our future together.\n\nThis Dhanteras, I don't wish for gold or silver, because I already possess the most precious treasure in existence - your heart. Your love is more valuable than all the riches in the cosmos, more beautiful than all the auroras dancing across the heavens.\n\nEvery moment with you feels like floating through a magical dimension where time stops and only love exists. You've transformed my ordinary world into an extraordinary universe filled with wonder, magic, and infinite possibilities.\n\nI promise to love you beyond the boundaries of space and time, to cherish you like the rarest cosmic phenomenon, and to make every day of our lives as magical as the birth of a new star.\n\nYou are my cosmic queen, my universal constant, my infinite love story. Happy Dhanteras, my beautiful universe! 💛✨🌌",
-            final_message: "Forever in your magical orbit, my cosmic queen! 🌌💛✨"
+            main_title: "Happy Dhanteras 2024",
+            subtitle_message: "May Gold & Silver Bless You 🪙",
+            wealth_blessing: "May Goddess Lakshmi shower you with endless prosperity, may your home be filled with golden light, and may wealth flow like a river into your life! ✨🙏",
+            gold_button: "🪙 Golden Rain 🪙",
+            lakshmi_button: "🙏 Lakshmi Blessings 🙏",
+            prosperity_button: "💰 Wealth Shower 💰",
+            special_button: "💕 Special Message 💕",
+            hearts_button: "💖 Golden Hearts 💖",
+            forever_button: "💍 Forever Together 💍",
+            dhanteras_title: "The Sacred Day of Wealth",
+            dhanteras_content: "On this auspicious day of Dhanteras, we celebrate the divine blessings of Goddess Lakshmi and Lord Dhanvantari. This sacred festival marks the beginning of the five-day Diwali celebration, where we honor wealth, health, and prosperity.\n\nLegend tells us that on this day, Goddess Lakshmi emerged from the ocean during the churning of the cosmic sea, bringing with her the promise of abundance and fortune. It is believed that purchasing gold, silver, or new utensils on Dhanteras invites prosperity into our homes.\n\nLord Dhanvantari, the divine physician, also appeared on this day carrying the nectar of immortality, blessing us with good health and longevity. The lighting of diyas and rangoli decorations welcome positive energy and drive away negativity.\n\nMay this Dhanteras illuminate your path with golden opportunities, fill your treasure chest with abundant wealth, and bless your family with everlasting happiness and prosperity! 🪙✨🙏",
+            final_blessing: "May your life shine like pure gold! 🪙✨"
         };
 
-        // Create revolutionary particle system
-        function createParticleUniverse() {
-            const container = document.getElementById('particleUniverse');
-            const particleTypes = ['particle-type-1', 'particle-type-2', 'particle-type-3', 'particle-type-4'];
+        // Create golden particle system
+        function createGoldenParticles() {
+            const container = document.getElementById('goldenParticles');
             
             setInterval(() => {
-                const particle = document.createElement('div');
-                particle.className = `cosmic-particle ${particleTypes[Math.floor(Math.random() * particleTypes.length)]}`;
-                particle.style.left = Math.random() * 100 + '%';
-                particle.style.animationDelay = '0s';
-                particle.style.animationDuration = (Math.random() * 4 + 6) + 's';
-                container.appendChild(particle);
-                
-                setTimeout(() => {
-                    particle.remove();
-                }, 10000);
-            }, 200);
+                if (container.children.length < 15) {
+                    const coin = document.createElement('div');
+                    coin.className = 'gold-coin';
+                    coin.style.left = Math.random() * 100 + '%';
+                    coin.style.animationDuration = (4 + Math.random() * 4) + 's';
+                    container.appendChild(coin);
+                    
+                    setTimeout(() => {
+                        if (coin.parentNode) {
+                            coin.remove();
+                        }
+                    }, 8000);
+                }
+            }, 1500);
         }
 
-        // Create love constellation
-        function createLoveConstellation() {
-            const container = document.getElementById('loveConstellation');
-            const loveSymbols = ['💖', '💕', '💛', '✨', '🌟', '💫', '🌙', '⭐', '💝', '🎀', '🌹', '💐', '🦋', '👑', '💎'];
-            
-            setInterval(() => {
-                const symbol = document.createElement('div');
-                symbol.className = 'love-symbol';
-                symbol.textContent = loveSymbols[Math.floor(Math.random() * loveSymbols.length)];
-                symbol.style.left = Math.random() * 100 + '%';
-                symbol.style.animationDelay = '0s';
-                symbol.style.animationDuration = (Math.random() * 6 + 10) + 's';
-                
-                const colors = ['#ff69b4', '#ffd700', '#ff6b35', '#ffed4e', '#9370db', '#00bfff'];
-                symbol.style.color = colors[Math.floor(Math.random() * colors.length)];
-                
-                container.appendChild(symbol);
-                
-                setTimeout(() => {
-                    symbol.remove();
-                }, 12000);
-            }, 2000);
-        }
-
-        // Create floating magic elements
-        function createFloatingMagic() {
-            const container = document.getElementById('floatingMagic');
-            const magicElements = ['🌌', '🌠', '🔮', '✨', '💫', '🌟', '⭐', '🎆', '🎇', '💥', '🌈', '🦄', '🧚‍♀️', '🪄'];
-            
-            setInterval(() => {
-                const element = document.createElement('div');
-                element.className = 'magic-element';
-                element.textContent = magicElements[Math.floor(Math.random() * magicElements.length)];
-                element.style.left = Math.random() * 100 + '%';
-                element.style.animationDelay = '0s';
-                element.style.animationDuration = (Math.random() * 8 + 12) + 's';
-                
-                const colors = ['#ffd700', '#ff69b4', '#9370db', '#00bfff', '#ff6b35', '#ffed4e'];
-                element.style.color = colors[Math.floor(Math.random() * colors.length)];
-                
-                container.appendChild(element);
-                
-                setTimeout(() => {
-                    element.remove();
-                }, 15000);
-            }, 3000);
-        }
-
-        // HYPERNOVA STAR BIRTH - MOST SPECTACULAR STAR CREATION EVER
-        function createHypernovaStarBirth(event) {
-            // Show romantic message
-            showRomanticMessage("My love, like this hypernova, you illuminate my entire universe with infinite brightness! ✨💛", event);
+        // GOLDEN RAIN EFFECT
+        function createGoldRain(event) {
+            showDhanterasMessage("🪙 May golden coins rain upon you, bringing endless prosperity and wealth! 🪙", event);
             
             const rect = event.target.getBoundingClientRect();
             const centerX = rect.left + rect.width / 2;
             const centerY = rect.top + rect.height / 2;
             
-            // Create hypernova explosion at center
-            const hypernova = document.createElement('div');
-            hypernova.className = 'hypernova-core';
-            hypernova.style.left = centerX + 'px';
-            hypernova.style.top = centerY + 'px';
-            hypernova.style.transform = 'translate(-50%, -50%)';
-            document.body.appendChild(hypernova);
-            
-            setTimeout(() => {
-                hypernova.remove();
-            }, 6000);
-            
-            // Create 100 newborn stars in expanding spiral formation
-            for (let i = 0; i < 100; i++) {
+            // Create 50 gold particles
+            for (let i = 0; i < 50; i++) {
                 setTimeout(() => {
-                    const newStar = document.createElement('div');
-                    newStar.className = 'quantum-star';
+                    const goldParticle = document.createElement('div');
+                    goldParticle.className = 'gold-rain-particle';
                     
-                    // Position in expanding spiral formation
-                    const angle = (i / 100) * Math.PI * 8;
-                    const radius = 80 + (i * 12);
+                    const x = centerX + (Math.random() - 0.5) * 400;
+                    const y = centerY - 100;
+                    
+                    goldParticle.style.left = x + 'px';
+                    goldParticle.style.top = y + 'px';
+                    
+                    document.body.appendChild(goldParticle);
+                    
+                    setTimeout(() => {
+                        goldParticle.remove();
+                    }, 3000);
+                }, i * 50);
+            }
+            
+            // Button feedback
+            event.target.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                event.target.style.transform = '';
+            }, 200);
+        }
+
+        // LAKSHMI BLESSINGS EFFECT
+        function showLakshmiBlessings(event) {
+            showDhanterasMessage("🙏 Goddess Lakshmi blesses you with abundance, peace, and divine grace! 🙏", event);
+            
+            const rect = event.target.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            
+            const blessings = ['🙏', '🪷', '✨', '🕉️', '💫', '🌟', '🪔', '🎋'];
+            
+            for (let i = 0; i < 20; i++) {
+                setTimeout(() => {
+                    const blessing = document.createElement('div');
+                    blessing.className = 'lakshmi-blessing';
+                    blessing.textContent = blessings[Math.floor(Math.random() * blessings.length)];
+                    
+                    const angle = (i / 20) * Math.PI * 2;
+                    const radius = 80 + Math.random() * 100;
                     const x = centerX + Math.cos(angle) * radius;
                     const y = centerY + Math.sin(angle) * radius;
                     
-                    newStar.style.left = x + 'px';
-                    newStar.style.top = y + 'px';
-                    newStar.style.animationDelay = (i * 0.05) + 's';
+                    blessing.style.left = x + 'px';
+                    blessing.style.top = y + 'px';
                     
-                    document.body.appendChild(newStar);
+                    document.body.appendChild(blessing);
                     
                     setTimeout(() => {
-                        newStar.remove();
-                    }, 8000);
-                }, i * 60);
+                        blessing.remove();
+                    }, 4000);
+                }, i * 100);
             }
             
-            // Create 20 cosmic energy waves
-            for (let i = 0; i < 20; i++) {
+            // Button feedback
+            event.target.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                event.target.style.transform = '';
+            }, 200);
+        }
+
+        // WEALTH SHOWER EFFECT
+        function createWealthShower(event) {
+            showDhanterasMessage("💰 May treasures of wealth and prosperity shower upon your family! 💰", event);
+            
+            const rect = event.target.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            
+            const wealthSymbols = ['💰', '💎', '🪙', '💳', '💵', '🏆', '👑', '💍'];
+            
+            for (let i = 0; i < 30; i++) {
                 setTimeout(() => {
-                    const wave = document.createElement('div');
-                    wave.className = 'cosmic-wave';
-                    wave.style.left = (centerX - 50) + 'px';
-                    wave.style.top = (centerY - 50) + 'px';
-                    wave.style.animationDelay = (i * 0.2) + 's';
+                    const wealth = document.createElement('div');
+                    wealth.className = 'wealth-shower';
+                    wealth.textContent = wealthSymbols[Math.floor(Math.random() * wealthSymbols.length)];
                     
-                    const colors = ['#ffd700', '#ff69b4', '#9370db', '#00bfff', '#ff6b35'];
-                    const color = colors[i % colors.length];
-                    wave.style.borderColor = color;
-                    wave.style.boxShadow = `0 0 100px ${color}`;
+                    const x = centerX + (Math.random() - 0.5) * 300;
+                    const y = centerY - 50;
                     
-                    document.body.appendChild(wave);
+                    wealth.style.left = x + 'px';
+                    wealth.style.top = y + 'px';
+                    
+                    document.body.appendChild(wealth);
                     
                     setTimeout(() => {
-                        wave.remove();
+                        wealth.remove();
+                    }, 3000);
+                }, i * 80);
+            }
+            
+            // Button feedback
+            event.target.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                event.target.style.transform = '';
+            }, 200);
+        }
+
+        // NEW DHANTERAS MAGIC FUNCTIONS
+        
+        // SACRED DIYAS EFFECT
+        function createDiyaLights(event) {
+            showDhanterasMessage("🪔 May the sacred light of diyas illuminate your path to prosperity and happiness! 🪔", event);
+            
+            const rect = event.target.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            
+            // Create 25 diya lights in circular pattern
+            for (let i = 0; i < 25; i++) {
+                setTimeout(() => {
+                    const diya = document.createElement('div');
+                    diya.className = 'diya-light';
+                    diya.textContent = '🪔';
+                    diya.style.fontSize = (25 + Math.random() * 15) + 'px';
+                    
+                    const angle = (i / 25) * Math.PI * 2;
+                    const radius = 80 + (i * 4);
+                    const x = centerX + Math.cos(angle) * radius;
+                    const y = centerY + Math.sin(angle) * radius;
+                    
+                    diya.style.left = x + 'px';
+                    diya.style.top = y + 'px';
+                    diya.style.color = ['#FFD700', '#FFA500', '#FF6347', '#FFB6C1'][Math.floor(Math.random() * 4)];
+                    
+                    document.body.appendChild(diya);
+                    
+                    setTimeout(() => {
+                        diya.remove();
+                    }, 4000);
+                }, i * 120);
+            }
+            
+            event.target.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                event.target.style.transform = '';
+            }, 200);
+        }
+
+        // RANGOLI MAGIC EFFECT
+        function showRangoliBlessings(event) {
+            showDhanterasMessage("🌺 May beautiful rangoli patterns bring colors of joy and prosperity to your home! 🌺", event);
+            
+            const rect = event.target.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            
+            const rangoliPatterns = ['🌺', '🌸', '🌼', '🌻', '🌷', '🏵️', '💮', '🌹'];
+            
+            for (let i = 0; i < 30; i++) {
+                setTimeout(() => {
+                    const pattern = document.createElement('div');
+                    pattern.className = 'rangoli-pattern';
+                    pattern.textContent = rangoliPatterns[Math.floor(Math.random() * rangoliPatterns.length)];
+                    pattern.style.fontSize = (20 + Math.random() * 20) + 'px';
+                    
+                    const angle = (i / 30) * Math.PI * 4; // Double spiral
+                    const radius = 60 + (i * 3);
+                    const x = centerX + Math.cos(angle) * radius;
+                    const y = centerY + Math.sin(angle) * radius;
+                    
+                    pattern.style.left = x + 'px';
+                    pattern.style.top = y + 'px';
+                    
+                    document.body.appendChild(pattern);
+                    
+                    setTimeout(() => {
+                        pattern.remove();
+                    }, 5000);
+                }, i * 100);
+            }
+            
+            event.target.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                event.target.style.transform = '';
+            }, 200);
+        }
+
+        // JEWELRY SPARKLE EFFECT
+        function createJewelrySparkle(event) {
+            showDhanterasMessage("💎 May precious jewelry and gems bring eternal beauty and wealth to your life! 💎", event);
+            
+            const rect = event.target.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            
+            const jewelry = ['💎', '💍', '👑', '📿', '💄', '👸', '🔮', '⚜️'];
+            
+            for (let i = 0; i < 35; i++) {
+                setTimeout(() => {
+                    const jewel = document.createElement('div');
+                    jewel.className = 'jewelry-sparkle';
+                    jewel.textContent = jewelry[Math.floor(Math.random() * jewelry.length)];
+                    jewel.style.fontSize = (18 + Math.random() * 22) + 'px';
+                    
+                    const x = centerX + (Math.random() - 0.5) * 400;
+                    const y = centerY + (Math.random() - 0.5) * 300;
+                    
+                    jewel.style.left = x + 'px';
+                    jewel.style.top = y + 'px';
+                    
+                    document.body.appendChild(jewel);
+                    
+                    setTimeout(() => {
+                        jewel.remove();
+                    }, 4000);
+                }, i * 80);
+            }
+            
+            event.target.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                event.target.style.transform = '';
+            }, 200);
+        }
+
+        // ROMANTIC SPECIAL MESSAGE FOR GIRLFRIEND
+        function showSpecialMessage(event) {
+            showRomanticMessage("💕 My Gorgeous Princess, My heart burns with desire for you every single moment! You are not just beautiful, you are absolutely irresistible and drive me crazy with your charm. This Dhanteras, I confess that your touch is more precious than gold, your kisses sweeter than honey, and your love more intoxicating than any treasure. You make my heart race and my soul crave for you endlessly. I want to hold you close, whisper sweet nothings in your ear, and make you feel like the queen you are. You are my addiction, my passion, my everything! I am completely and hopelessly in love with every inch of you, my darling! 💕<br><br><strong>Forever Yours with Burning Love,<br>Your Devoted Husband Mihir 💖</strong>", event);
+            
+            const rect = event.target.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            
+            // Create floating hearts around the message
+            const hearts = ['💕', '💖', '💗', '💝', '💘', '💞', '💓', '💟'];
+            
+            for (let i = 0; i < 15; i++) {
+                setTimeout(() => {
+                    const heart = document.createElement('div');
+                    heart.className = 'heart-particle';
+                    heart.textContent = hearts[Math.floor(Math.random() * hearts.length)];
+                    
+                    const angle = (i / 15) * Math.PI * 2;
+                    const radius = 60 + Math.random() * 80;
+                    const x = centerX + Math.cos(angle) * radius;
+                    const y = centerY + Math.sin(angle) * radius;
+                    
+                    heart.style.left = x + 'px';
+                    heart.style.top = y + 'px';
+                    heart.style.color = ['#FF69B4', '#FFB6C1', '#FF1493', '#FFD700'][Math.floor(Math.random() * 4)];
+                    
+                    document.body.appendChild(heart);
+                    
+                    setTimeout(() => {
+                        heart.remove();
                     }, 4000);
                 }, i * 150);
             }
             
-            // Create stardust cascade
-            for (let i = 0; i < 80; i++) {
+            // Button feedback
+            event.target.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                event.target.style.transform = '';
+            }, 200);
+        }
+
+        // ROSE GARDEN EFFECT
+        function createRoseGarden(event) {
+            showRomanticMessage("🌹 My Beautiful Rose, you bloom in my heart like the most gorgeous garden! Every petal of your love makes my life more beautiful. This Dhanteras, I promise to nurture our love like the most precious flower garden, where every day brings new blossoms of happiness! 🌹", event);
+            
+            const rect = event.target.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            
+            const roses = ['🌹', '🌺', '🌸', '🌷', '🌻', '🌼', '💐', '🏵️'];
+            
+            for (let i = 0; i < 40; i++) {
                 setTimeout(() => {
-                    const stardust = document.createElement('div');
-                    stardust.className = 'stardust-particle';
-                    stardust.style.left = (centerX + (Math.random() - 0.5) * 400) + 'px';
-                    stardust.style.top = (centerY - 100) + 'px';
+                    const rose = document.createElement('div');
+                    rose.className = 'rose-bloom';
+                    rose.textContent = roses[Math.floor(Math.random() * roses.length)];
+                    rose.style.fontSize = (22 + Math.random() * 18) + 'px';
                     
-                    document.body.appendChild(stardust);
+                    const angle = (i / 40) * Math.PI * 3;
+                    const radius = 70 + (i * 2.5);
+                    const x = centerX + Math.cos(angle) * radius;
+                    const y = centerY + Math.sin(angle) * radius;
+                    
+                    rose.style.left = x + 'px';
+                    rose.style.top = y + 'px';
+                    
+                    document.body.appendChild(rose);
                     
                     setTimeout(() => {
-                        stardust.remove();
+                        rose.remove();
                     }, 5000);
                 }, i * 100);
             }
             
-            // Button feedback
             event.target.style.transform = 'scale(0.95)';
             setTimeout(() => {
                 event.target.style.transform = '';
             }, 200);
         }
 
-        // GALACTIC LOVE STORM - MOST INTENSE GALAXY EFFECT EVER
-        function summonGalacticLoveStorm(event) {
-            // Show romantic message
-            showRomanticMessage("Purvi, you are the center of my galaxy, and my love for you creates the most beautiful cosmic storms! 💫💖", event);
+        // QUEEN CROWN EFFECT
+        function showQueenCrown(event) {
+            showRomanticMessage("👑 You are my Queen, my Empress, my everything! No crown in the world can match the royal grace you carry in your heart. This Dhanteras, I bow before your beauty and promise to treat you like the goddess you are, today and forever! 👑", event);
             
             const rect = event.target.getBoundingClientRect();
             const centerX = rect.left + rect.width / 2;
             const centerY = rect.top + rect.height / 2;
             
-            // Create central hypernova
-            const hypernova = document.createElement('div');
-            hypernova.className = 'hypernova-core';
-            hypernova.style.left = centerX + 'px';
-            hypernova.style.top = centerY + 'px';
-            hypernova.style.transform = 'translate(-50%, -50%)';
-            document.body.appendChild(hypernova);
+            const royalty = ['👑', '💎', '👸', '⚜️', '🔱', '💍', '🏆', '🌟'];
             
-            // Create 200 galactic storm particles
-            for (let i = 0; i < 200; i++) {
-                setTimeout(() => {
-                    const stormParticle = document.createElement('div');
-                    stormParticle.className = 'galactic-storm-particle';
-                    
-                    // Create particle core
-                    const core = document.createElement('div');
-                    core.className = 'storm-particle-core';
-                    stormParticle.appendChild(core);
-                    
-                    // Create particle trail
-                    const trail = document.createElement('div');
-                    trail.className = 'storm-particle-trail';
-                    stormParticle.appendChild(trail);
-                    
-                    // Position in expanding vortex
-                    const angle = (i / 200) * Math.PI * 16;
-                    const radius = 50 + (i * 8);
-                    const x = centerX + Math.cos(angle) * radius;
-                    const y = centerY + Math.sin(angle) * radius;
-                    
-                    stormParticle.style.left = x + 'px';
-                    stormParticle.style.top = y + 'px';
-                    stormParticle.style.animationDelay = (i * 0.02) + 's';
-                    
-                    document.body.appendChild(stormParticle);
-                    
-                    setTimeout(() => {
-                        stormParticle.remove();
-                    }, 4000);
-                }, i * 30);
-            }
-            
-            // Create 12 galaxy spiral arms
-            for (let arm = 0; arm < 12; arm++) {
-                setTimeout(() => {
-                    const galaxyArm = document.createElement('div');
-                    galaxyArm.className = 'galaxy-arm';
-                    galaxyArm.style.left = centerX + 'px';
-                    galaxyArm.style.top = centerY + 'px';
-                    galaxyArm.style.transform = `rotate(${arm * 30}deg)`;
-                    galaxyArm.style.animationDelay = (arm * 0.3) + 's';
-                    
-                    document.body.appendChild(galaxyArm);
-                    
-                    setTimeout(() => {
-                        galaxyArm.remove();
-                    }, 8000);
-                }, arm * 200);
-            }
-            
-            // Create love heart storm
-            const hearts = ['💖', '💕', '💛', '✨', '🌟', '💫', '🌌', '⭐', '🌠', '💝', '💗', '💘'];
-            for (let i = 0; i < 150; i++) {
-                setTimeout(() => {
-                    const heartExplosion = document.createElement('div');
-                    heartExplosion.className = 'love-heart-explosion';
-                    heartExplosion.textContent = hearts[Math.floor(Math.random() * hearts.length)];
-                    
-                    // Position in chaotic storm pattern
-                    const angle = Math.random() * Math.PI * 2;
-                    const radius = Math.random() * 400 + 100;
-                    const x = centerX + Math.cos(angle) * radius;
-                    const y = centerY + Math.sin(angle) * radius;
-                    
-                    heartExplosion.style.left = x + 'px';
-                    heartExplosion.style.top = y + 'px';
-                    heartExplosion.style.animationDelay = (i * 0.03) + 's';
-                    
-                    const colors = ['#ff69b4', '#ffd700', '#ff6b35', '#9370db', '#00bfff', '#ffed4e'];
-                    heartExplosion.style.color = colors[Math.floor(Math.random() * colors.length)];
-                    
-                    document.body.appendChild(heartExplosion);
-                    
-                    setTimeout(() => {
-                        heartExplosion.remove();
-                    }, 4000);
-                }, i * 50);
-            }
-            
-            // Remove hypernova
-            setTimeout(() => {
-                hypernova.remove();
-            }, 6000);
-            
-            // Button feedback
-            event.target.style.transform = 'scale(0.95)';
-            setTimeout(() => {
-                event.target.style.transform = '';
-            }, 200);
-        }
-
-        // DIMENSIONAL LOVE PORTAL
-        function openDimensionalPortal(event) {
-            // Show romantic message
-            showRomanticMessage("Through this portal, my soul travels across dimensions just to find you in every universe! 💖🌌", event);
-            
-            const rect = event.target.getBoundingClientRect();
-            const centerX = rect.left + rect.width / 2;
-            const centerY = rect.top + rect.height / 2;
-            
-            // Create dimensional portal
-            const portal = document.createElement('div');
-            portal.className = 'dimensional-portal';
-            portal.style.left = (centerX - 150) + 'px';
-            portal.style.top = (centerY - 150) + 'px';
-            
-            // Create portal rings
-            for (let i = 1; i <= 4; i++) {
-                const ring = document.createElement('div');
-                ring.className = 'portal-ring';
-                portal.appendChild(ring);
-            }
-            
-            // Create portal center
-            const center = document.createElement('div');
-            center.className = 'portal-center';
-            portal.appendChild(center);
-            
-            document.body.appendChild(portal);
-            
-            // Create love message in portal
-            setTimeout(() => {
-                const loveMessage = document.createElement('div');
-                loveMessage.innerHTML = `
-                    <div style="
-                        position: fixed;
-                        left: 50%;
-                        top: 50%;
-                        transform: translate(-50%, -50%);
-                        color: #fff;
-                        font-size: clamp(16px, 4vw, 24px);
-                        font-weight: bold;
-                        text-align: center;
-                        text-shadow: 0 0 30px #ffd700, 0 0 60px #ff69b4;
-                        animation: messageGlow 2s ease-in-out infinite alternate;
-                        z-index: 1001;
-                        pointer-events: none;
-                        line-height: 1.4;
-                        padding: 20px;
-                        background: rgba(0,0,0,0.7);
-                        border-radius: 20px;
-                        backdrop-filter: blur(10px);
-                    ">
-                        💖 Mihir's Love Portal 💖<br>
-                        <span style="font-size: 0.8em;">Connecting Hearts Across Dimensions</span><br>
-                        <span style="font-size: 0.8em;">Forever Purvi 💛✨🌌</span>
-                    </div>
-                `;
-                document.body.appendChild(loveMessage);
-                
-                setTimeout(() => {
-                    loveMessage.remove();
-                }, 4000);
-            }, 2000);
-            
-            setTimeout(() => {
-                portal.remove();
-            }, 6000);
-            
-            // Button feedback
-            event.target.style.transform = 'scale(0.95)';
-            setTimeout(() => {
-                event.target.style.transform = '';
-            }, 200);
-        }
-
-        // TIME WARP LOVE STORM
-        function createTimeWarpEffect(event) {
-            // Show romantic message
-            showRomanticMessage("Even if time itself stops, my love for you will continue flowing through eternity! ⏰💛", event);
-            
-            const rect = event.target.getBoundingClientRect();
-            const centerX = rect.left + rect.width / 2;
-            const centerY = rect.top + rect.height / 2;
-            
-            // Create time warp effect
-            const timeWarp = document.createElement('div');
-            timeWarp.className = 'time-warp';
-            timeWarp.style.left = (centerX - 100) + 'px';
-            timeWarp.style.top = (centerY - 100) + 'px';
-            
-            // Create warp rings
-            for (let i = 1; i <= 4; i++) {
-                const ring = document.createElement('div');
-                ring.className = 'warp-ring';
-                timeWarp.appendChild(ring);
-            }
-            
-            document.body.appendChild(timeWarp);
-            
-            // Create temporal love symbols
-            const loveSymbols = ['💖', '💕', '💛', '✨', '🌟', '💫', '⏰', '🌀', '💝', '🔮'];
-            for (let i = 0; i < 60; i++) {
-                setTimeout(() => {
-                    const symbol = document.createElement('div');
-                    symbol.className = 'love-symbol';
-                    symbol.textContent = loveSymbols[Math.floor(Math.random() * loveSymbols.length)];
-                    symbol.style.left = Math.random() * 100 + '%';
-                    symbol.style.fontSize = (Math.random() * 25 + 15) + 'px';
-                    symbol.style.animationDuration = (Math.random() * 2 + 3) + 's';
-                    symbol.style.color = ['#ffd700', '#ff69b4', '#9370db', '#00bfff'][Math.floor(Math.random() * 4)];
-                    symbol.style.filter = 'blur(1px) brightness(1.5)';
-                    document.getElementById('loveConstellation').appendChild(symbol);
-                    
-                    setTimeout(() => {
-                        symbol.remove();
-                    }, 5000);
-                }, i * 80);
-            }
-            
-            setTimeout(() => {
-                timeWarp.remove();
-            }, 5000);
-            
-            // Button feedback
-            event.target.style.transform = 'scale(0.95)';
-            setTimeout(() => {
-                event.target.style.transform = '';
-            }, 200);
-        }
-
-        // COSMIC LOVE WAVES
-        function triggerCosmicWaves(event) {
-            // Show romantic message
-            showRomanticMessage("My darling, these waves carry all my love across the cosmos to reach your beautiful heart! 🌊💖", event);
-            
-            const rect = event.target.getBoundingClientRect();
-            const centerX = rect.left + rect.width / 2;
-            const centerY = rect.top + rect.height / 2;
-            
-            // Create multiple cosmic waves
-            for (let i = 0; i < 12; i++) {
-                setTimeout(() => {
-                    const wave = document.createElement('div');
-                    wave.className = 'cosmic-wave';
-                    wave.style.left = (centerX - 50) + 'px';
-                    wave.style.top = (centerY - 50) + 'px';
-                    wave.style.animationDelay = '0s';
-                    wave.style.animationDuration = (2 + Math.random() * 2) + 's';
-                    
-                    // Random colors for each wave
-                    const colors = ['#ffd700', '#ff69b4', '#9370db', '#00bfff', '#ff6b35'];
-                    const color = colors[Math.floor(Math.random() * colors.length)];
-                    wave.style.borderColor = color;
-                    wave.style.boxShadow = `0 0 50px ${color}`;
-                    
-                    document.body.appendChild(wave);
-                    
-                    setTimeout(() => {
-                        wave.remove();
-                    }, 3000);
-                }, i * 250);
-            }
-            
-            // Button feedback
-            event.target.style.transform = 'scale(0.95)';
-            setTimeout(() => {
-                event.target.style.transform = '';
-            }, 200);
-        }
-
-        // HEART SUPERNOVA BLAST
-        function createHeartExplosion(event) {
-            // Show romantic message
-            showRomanticMessage("Every beat of my heart explodes with love for you, creating supernovas of pure devotion! 💥💛", event);
-            
-            const rect = event.target.getBoundingClientRect();
-            const centerX = rect.left + rect.width / 2;
-            const centerY = rect.top + rect.height / 2;
-            
-            // Create central supernova
-            const supernova = document.createElement('div');
-            supernova.className = 'supernova-core';
-            supernova.style.left = centerX + 'px';
-            supernova.style.top = centerY + 'px';
-            supernova.style.transform = 'translate(-50%, -50%)';
-            document.body.appendChild(supernova);
-            
-            // Create heart explosions in all directions
-            const hearts = ['💖', '💕', '💛', '💝', '💗', '💘', '💙', '💚', '💜', '🧡'];
-            for (let i = 0; i < 80; i++) {
-                setTimeout(() => {
-                    const heartExplosion = document.createElement('div');
-                    heartExplosion.className = 'love-heart-explosion';
-                    heartExplosion.textContent = hearts[Math.floor(Math.random() * hearts.length)];
-                    
-                    // Random position around center
-                    const angle = Math.random() * Math.PI * 2;
-                    const distance = Math.random() * 200 + 50;
-                    const x = centerX + Math.cos(angle) * distance;
-                    const y = centerY + Math.sin(angle) * distance;
-                    
-                    heartExplosion.style.left = x + 'px';
-                    heartExplosion.style.top = y + 'px';
-                    heartExplosion.style.animationDelay = (i * 0.03) + 's';
-                    
-                    const colors = ['#ff69b4', '#ffd700', '#ff6b35', '#9370db', '#00bfff', '#ffed4e'];
-                    heartExplosion.style.color = colors[Math.floor(Math.random() * colors.length)];
-                    
-                    document.body.appendChild(heartExplosion);
-                    
-                    setTimeout(() => {
-                        heartExplosion.remove();
-                    }, 4000);
-                }, i * 50);
-            }
-            
-            setTimeout(() => {
-                supernova.remove();
-            }, 4000);
-            
-            // Button feedback
-            event.target.style.transform = 'scale(0.95)';
-            setTimeout(() => {
-                event.target.style.transform = '';
-            }, 200);
-        }
-
-        // QUANTUM LOVE FIELD
-        function activateQuantumField(event) {
-            // Show romantic message
-            showRomanticMessage("In the quantum realm of love, we are eternally entangled, my beautiful Purvi! ⚛️✨", event);
-            
-            const rect = event.target.getBoundingClientRect();
-            const centerX = rect.left + rect.width / 2;
-            const centerY = rect.top + rect.height / 2;
-            
-            // Create quantum field with multiple effects
             for (let i = 0; i < 30; i++) {
                 setTimeout(() => {
-                    const quantumStar = document.createElement('div');
-                    quantumStar.className = 'quantum-star';
+                    const crown = document.createElement('div');
+                    crown.className = 'crown-majesty';
+                    crown.textContent = royalty[Math.floor(Math.random() * royalty.length)];
+                    crown.style.fontSize = (25 + Math.random() * 20) + 'px';
                     
-                    // Random positions across screen
-                    quantumStar.style.left = Math.random() * window.innerWidth + 'px';
-                    quantumStar.style.top = Math.random() * window.innerHeight + 'px';
+                    const angle = (i / 30) * Math.PI * 2;
+                    const radius = 90 + Math.random() * 60;
+                    const x = centerX + Math.cos(angle) * radius;
+                    const y = centerY + Math.sin(angle) * radius;
                     
-                    document.body.appendChild(quantumStar);
+                    crown.style.left = x + 'px';
+                    crown.style.top = y + 'px';
+                    
+                    document.body.appendChild(crown);
                     
                     setTimeout(() => {
-                        quantumStar.remove();
+                        crown.remove();
                     }, 6000);
-                }, i * 200);
+                }, i * 150);
             }
             
-            // Create time warp effects
-            for (let i = 0; i < 5; i++) {
-                setTimeout(() => {
-                    const timeWarp = document.createElement('div');
-                    timeWarp.className = 'time-warp';
-                    timeWarp.style.left = (Math.random() * window.innerWidth - 100) + 'px';
-                    timeWarp.style.top = (Math.random() * window.innerHeight - 100) + 'px';
-                    
-                    // Create warp rings
-                    for (let j = 1; j <= 4; j++) {
-                        const ring = document.createElement('div');
-                        ring.className = 'warp-ring';
-                        timeWarp.appendChild(ring);
-                    }
-                    
-                    document.body.appendChild(timeWarp);
-                    
-                    setTimeout(() => {
-                        timeWarp.remove();
-                    }, 5000);
-                }, i * 800);
-            }
-            
-            // Button feedback
             event.target.style.transform = 'scale(0.95)';
             setTimeout(() => {
                 event.target.style.transform = '';
             }, 200);
         }
 
-        // UNIVERSAL LOVE MATRIX - INTERCONNECTED LOVE NETWORK
-        function createUniversalLoveMatrix(event) {
-            // Show romantic message
-            showRomanticMessage("Our love creates an infinite matrix connecting every star, every dream, every heartbeat! 🌌💝", event);
+        // STARRY NIGHT EFFECT
+        function createStarryNight(event) {
+            showRomanticMessage("⭐ Under the starry sky, I make a wish that our love shines brighter than all the stars combined! You are my guiding star, my lucky star, my everything! This Dhanteras night, let's dream together under the golden stars of prosperity! ⭐", event);
             
             const rect = event.target.getBoundingClientRect();
             const centerX = rect.left + rect.width / 2;
             const centerY = rect.top + rect.height / 2;
             
-            // Create matrix nodes in grid formation
-            const gridSize = 8;
-            const spacing = 120;
+            const stars = ['⭐', '🌟', '✨', '💫', '🌠', '⚡', '🔆', '💥'];
             
-            for (let row = 0; row < gridSize; row++) {
-                for (let col = 0; col < gridSize; col++) {
-                    setTimeout(() => {
-                        const node = document.createElement('div');
-                        node.className = 'love-matrix-node';
-                        
-                        const x = centerX + (col - gridSize/2) * spacing;
-                        const y = centerY + (row - gridSize/2) * spacing;
-                        
-                        node.style.left = x + 'px';
-                        node.style.top = y + 'px';
-                        node.style.animationDelay = ((row + col) * 0.1) + 's';
-                        
-                        document.body.appendChild(node);
-                        
-                        setTimeout(() => {
-                            node.remove();
-                        }, 8000);
-                    }, (row * gridSize + col) * 50);
-                }
-            }
-            
-            // Create connections between nodes
             for (let i = 0; i < 50; i++) {
                 setTimeout(() => {
-                    const connection = document.createElement('div');
-                    connection.className = 'matrix-connection';
+                    const star = document.createElement('div');
+                    star.className = 'star-twinkle';
+                    star.textContent = stars[Math.floor(Math.random() * stars.length)];
+                    star.style.fontSize = (15 + Math.random() * 25) + 'px';
                     
-                    const startX = centerX + (Math.random() - 0.5) * 800;
-                    const startY = centerY + (Math.random() - 0.5) * 600;
-                    const endX = centerX + (Math.random() - 0.5) * 800;
-                    const endY = centerY + (Math.random() - 0.5) * 600;
+                    const x = centerX + (Math.random() - 0.5) * 500;
+                    const y = centerY + (Math.random() - 0.5) * 400;
                     
-                    const length = Math.sqrt((endX - startX) ** 2 + (endY - startY) ** 2);
-                    const angle = Math.atan2(endY - startY, endX - startX) * 180 / Math.PI;
+                    star.style.left = x + 'px';
+                    star.style.top = y + 'px';
+                    star.style.color = ['#FFD700', '#FFFF00', '#FFA500', '#FFB6C1', '#87CEEB'][Math.floor(Math.random() * 5)];
                     
-                    connection.style.left = startX + 'px';
-                    connection.style.top = startY + 'px';
-                    connection.style.width = length + 'px';
-                    connection.style.transform = `rotate(${angle}deg)`;
-                    connection.style.animationDelay = (i * 0.1) + 's';
-                    
-                    document.body.appendChild(connection);
+                    document.body.appendChild(star);
                     
                     setTimeout(() => {
-                        connection.remove();
+                        star.remove();
+                    }, 4000);
+                }, i * 60);
+            }
+            
+            event.target.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                event.target.style.transform = '';
+            }, 200);
+        }
+
+        // SOULMATE EFFECT
+        function showSoulmate(event) {
+            showRomanticMessage("💞 My Soulmate, My Other Half, My Perfect Match! The universe conspired to bring us together on this beautiful journey of love. This Dhanteras, I celebrate not just the festival of wealth, but the treasure of finding my soulmate in you! You complete me in every way possible! 💞", event);
+            
+            const rect = event.target.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            
+            const soulmate = ['💞', '💕', '💖', '💗', '💘', '💝', '💟', '❤️'];
+            
+            for (let i = 0; i < 35; i++) {
+                setTimeout(() => {
+                    const soul = document.createElement('div');
+                    soul.className = 'heart-particle';
+                    soul.textContent = soulmate[Math.floor(Math.random() * soulmate.length)];
+                    soul.style.fontSize = (20 + Math.random() * 20) + 'px';
+                    
+                    const angle = (i / 35) * Math.PI * 4;
+                    const radius = 60 + (i * 2);
+                    const x = centerX + Math.cos(angle) * radius;
+                    const y = centerY + Math.sin(angle) * radius;
+                    
+                    soul.style.left = x + 'px';
+                    soul.style.top = y + 'px';
+                    soul.style.color = ['#FF69B4', '#FFB6C1', '#FF1493', '#FFD700', '#FFA500'][Math.floor(Math.random() * 5)];
+                    
+                    document.body.appendChild(soul);
+                    
+                    setTimeout(() => {
+                        soul.remove();
+                    }, 4000);
+                }, i * 120);
+            }
+            
+            event.target.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                event.target.style.transform = '';
+            }, 200);
+        }
+
+        // BUTTERFLY KISSES EFFECT
+        function createButterflyKisses(event) {
+            showRomanticMessage("🦋 My Sweet Butterfly, your love gives me wings to fly! Every kiss from you feels like a gentle butterfly landing on my heart. This Dhanteras, let our love dance like beautiful butterflies in a garden of golden dreams! 🦋", event);
+            
+            const rect = event.target.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            
+            const butterflies = ['🦋', '🌸', '💕', '✨', '🌺', '💖', '🌼', '💫'];
+            
+            for (let i = 0; i < 45; i++) {
+                setTimeout(() => {
+                    const butterfly = document.createElement('div');
+                    butterfly.className = 'butterfly-dance';
+                    butterfly.textContent = butterflies[Math.floor(Math.random() * butterflies.length)];
+                    butterfly.style.fontSize = (18 + Math.random() * 16) + 'px';
+                    
+                    const x = centerX + (Math.random() - 0.5) * 300;
+                    const y = centerY + (Math.random() - 0.5) * 200;
+                    
+                    butterfly.style.left = x + 'px';
+                    butterfly.style.top = y + 'px';
+                    butterfly.style.color = ['#FF69B4', '#FFB6C1', '#9370DB', '#FFD700', '#FFA500'][Math.floor(Math.random() * 5)];
+                    
+                    document.body.appendChild(butterfly);
+                    
+                    setTimeout(() => {
+                        butterfly.remove();
                     }, 6000);
                 }, i * 100);
             }
             
-            // Button feedback
             event.target.style.transform = 'scale(0.95)';
             setTimeout(() => {
                 event.target.style.transform = '';
             }, 200);
         }
 
-        // COSMIC HEART NEBULA - HEART-SHAPED COSMIC CLOUD
-        function triggerCosmicHeartNebula(event) {
-            // Show romantic message
-            showRomanticMessage("Like this cosmic nebula, my heart forms the shape of infinite love just for you! 💝🌌", event);
+        // GOLDEN HEARTS EFFECT
+        function createGoldenHearts(event) {
+            showRomanticMessage("💖 Just like gold never loses its shine, my love for you will never fade! You are the golden light that brightens my world every single day! This Dhanteras, my heart rains golden love for you! 💖", event);
             
             const rect = event.target.getBoundingClientRect();
             const centerX = rect.left + rect.width / 2;
             const centerY = rect.top + rect.height / 2;
             
-            // Create heart nebula
-            const nebula = document.createElement('div');
-            nebula.className = 'heart-nebula';
-            nebula.style.left = (centerX - 150) + 'px';
-            nebula.style.top = (centerY - 150) + 'px';
-            
-            // Create nebula clouds
-            for (let i = 1; i <= 3; i++) {
-                const cloud = document.createElement('div');
-                cloud.className = 'nebula-cloud';
-                nebula.appendChild(cloud);
-            }
-            
-            document.body.appendChild(nebula);
-            
-            // Create heart-shaped particle formation
-            const hearts = ['💖', '💕', '💛', '💝', '💗', '💘'];
-            for (let i = 0; i < 60; i++) {
+            // Create golden heart rain
+            for (let i = 0; i < 40; i++) {
                 setTimeout(() => {
-                    const heartParticle = document.createElement('div');
-                    heartParticle.className = 'love-heart-explosion';
-                    heartParticle.textContent = hearts[Math.floor(Math.random() * hearts.length)];
+                    const heart = document.createElement('div');
+                    heart.className = 'heart-particle';
+                    heart.textContent = ['💛', '💖', '💕', '🧡'][Math.floor(Math.random() * 4)];
                     
-                    // Create heart shape formation
-                    const t = (i / 60) * Math.PI * 2;
-                    const heartX = 16 * Math.sin(t) ** 3;
-                    const heartY = -(13 * Math.cos(t) - 5 * Math.cos(2*t) - 2 * Math.cos(3*t) - Math.cos(4*t));
+                    const x = centerX + (Math.random() - 0.5) * 400;
+                    const y = centerY - 100;
                     
-                    const x = centerX + heartX * 8;
-                    const y = centerY + heartY * 8;
+                    heart.style.left = x + 'px';
+                    heart.style.top = y + 'px';
+                    heart.style.fontSize = (20 + Math.random() * 15) + 'px';
                     
-                    heartParticle.style.left = x + 'px';
-                    heartParticle.style.top = y + 'px';
-                    heartParticle.style.animationDelay = (i * 0.1) + 's';
-                    
-                    const colors = ['#ff69b4', '#ffd700', '#ff6b35', '#9370db'];
-                    heartParticle.style.color = colors[Math.floor(Math.random() * colors.length)];
-                    
-                    document.body.appendChild(heartParticle);
+                    document.body.appendChild(heart);
                     
                     setTimeout(() => {
-                        heartParticle.remove();
+                        heart.remove();
                     }, 4000);
                 }, i * 100);
             }
             
-            setTimeout(() => {
-                nebula.remove();
-            }, 10000);
-            
             // Button feedback
             event.target.style.transform = 'scale(0.95)';
             setTimeout(() => {
@@ -2508,119 +1512,37 @@
             }, 200);
         }
 
-        // STARDUST CASCADE - MAGICAL FALLING STARDUST
-        function activateStardustCascade(event) {
-            // Show romantic message
-            showRomanticMessage("Each particle of stardust carries a wish for our eternal happiness together! ✨💛", event);
+        // FOREVER TOGETHER PROMISE
+        function showForeverPromise(event) {
+            showRomanticMessage("💍 My Darling, will you be my treasure forever? Like the eternal glow of gold, I promise to love you through every Dhanteras, every festival, and every moment of our beautiful life together! You are my everything! 💍", event);
             
             const rect = event.target.getBoundingClientRect();
             const centerX = rect.left + rect.width / 2;
             const centerY = rect.top + rect.height / 2;
             
-            // Create stardust cascade from multiple points
-            for (let source = 0; source < 5; source++) {
-                const sourceX = centerX + (source - 2) * 200;
-                const sourceY = centerY - 200;
-                
-                for (let i = 0; i < 40; i++) {
-                    setTimeout(() => {
-                        const stardust = document.createElement('div');
-                        stardust.className = 'stardust-particle';
-                        stardust.style.left = (sourceX + (Math.random() - 0.5) * 100) + 'px';
-                        stardust.style.top = sourceY + 'px';
-                        stardust.style.animationDelay = (i * 0.05) + 's';
-                        
-                        document.body.appendChild(stardust);
-                        
-                        setTimeout(() => {
-                            stardust.remove();
-                        }, 5000);
-                    }, (source * 200) + (i * 80));
-                }
-            }
+            // Create diamond and ring sparkles
+            const sparkles = ['💍', '💎', '✨', '🌟', '💫', '⭐', '🔸', '🔹'];
             
-            // Button feedback
-            event.target.style.transform = 'scale(0.95)';
-            setTimeout(() => {
-                event.target.style.transform = '';
-            }, 200);
-        }
-
-        // LOVE AURORA BOREALIS - DANCING AURORA LIGHTS
-        function createLoveAurora(event) {
-            // Create multiple aurora waves at different heights
-            for (let i = 0; i < 8; i++) {
+            for (let i = 0; i < 25; i++) {
                 setTimeout(() => {
-                    const aurora = document.createElement('div');
-                    aurora.className = 'aurora-wave';
-                    aurora.style.top = (i * 80 + 100) + 'px';
-                    aurora.style.animationDelay = (i * 0.5) + 's';
-                    aurora.style.animationDuration = (10 + Math.random() * 4) + 's';
+                    const sparkle = document.createElement('div');
+                    sparkle.className = 'diamond-sparkle';
+                    sparkle.textContent = sparkles[Math.floor(Math.random() * sparkles.length)];
                     
-                    // Vary the colors for each wave
-                    const hueRotation = i * 45;
-                    aurora.style.filter = `blur(3px) hue-rotate(${hueRotation}deg)`;
+                    const angle = (i / 25) * Math.PI * 4; // Double rotation
+                    const radius = 50 + (i * 3);
+                    const x = centerX + Math.cos(angle) * radius;
+                    const y = centerY + Math.sin(angle) * radius;
                     
-                    document.body.appendChild(aurora);
+                    sparkle.style.left = x + 'px';
+                    sparkle.style.top = y + 'px';
                     
-                    setTimeout(() => {
-                        aurora.remove();
-                    }, 15000);
-                }, i * 300);
-            }
-            
-            // Button feedback
-            event.target.style.transform = 'scale(0.95)';
-            setTimeout(() => {
-                event.target.style.transform = '';
-            }, 200);
-        }
-
-        // CELESTIAL FIREWORKS - SPECTACULAR FIREWORK DISPLAY
-        function summonCelestialFireworks(event) {
-            const rect = event.target.getBoundingClientRect();
-            const centerX = rect.left + rect.width / 2;
-            const centerY = rect.top + rect.height / 2;
-            
-            // Create multiple firework bursts
-            for (let firework = 0; firework < 15; firework++) {
-                setTimeout(() => {
-                    const fireworkContainer = document.createElement('div');
-                    fireworkContainer.className = 'celestial-firework';
-                    
-                    const x = centerX + (Math.random() - 0.5) * 600;
-                    const y = centerY + (Math.random() - 0.5) * 400;
-                    
-                    fireworkContainer.style.left = x + 'px';
-                    fireworkContainer.style.top = y + 'px';
-                    
-                    // Create burst particles in all directions
-                    for (let particle = 0; particle < 20; particle++) {
-                        const burst = document.createElement('div');
-                        burst.className = 'firework-burst';
-                        
-                        const angle = (particle / 20) * Math.PI * 2;
-                        const distance = 50 + Math.random() * 100;
-                        const particleX = Math.cos(angle) * distance;
-                        const particleY = Math.sin(angle) * distance;
-                        
-                        burst.style.left = particleX + 'px';
-                        burst.style.top = particleY + 'px';
-                        burst.style.animationDelay = (particle * 0.05) + 's';
-                        
-                        const colors = ['#ffd700', '#ff69b4', '#9370db', '#00bfff', '#ff6b35'];
-                        const color = colors[Math.floor(Math.random() * colors.length)];
-                        burst.style.background = `radial-gradient(circle, #fff, ${color})`;
-                        
-                        fireworkContainer.appendChild(burst);
-                    }
-                    
-                    document.body.appendChild(fireworkContainer);
+                    document.body.appendChild(sparkle);
                     
                     setTimeout(() => {
-                        fireworkContainer.remove();
-                    }, 3000);
-                }, firework * 400);
+                        sparkle.remove();
+                    }, 5000);
+                }, i * 120);
             }
             
             // Button feedback
@@ -2630,177 +1552,175 @@
             }, 200);
         }
 
-        // COSMIC DNA HELIX - DOUBLE HELIX OF LOVE
-        function activateCosmicDNA(event) {
-            const rect = event.target.getBoundingClientRect();
-            const centerX = rect.left + rect.width / 2;
-            const centerY = rect.top + rect.height / 2;
-            
-            // Create DNA helix structure
-            const helix = document.createElement('div');
-            helix.className = 'dna-helix';
-            helix.style.left = (centerX - 200) + 'px';
-            helix.style.top = (centerY - 300) + 'px';
-            
-            // Create DNA strands
-            for (let i = 1; i <= 2; i++) {
-                const strand = document.createElement('div');
-                strand.className = 'dna-strand';
-                helix.appendChild(strand);
+        // Global variable to track current message
+        let currentMessage = null;
+
+        // Clear any existing message
+        function clearCurrentMessage() {
+            if (currentMessage) {
+                currentMessage.remove();
+                currentMessage = null;
             }
-            
-            // Create DNA connections
-            for (let i = 0; i < 20; i++) {
-                const connection = document.createElement('div');
-                connection.className = 'dna-connection';
-                connection.style.top = (i * 30) + 'px';
-                connection.style.animationDelay = (i * 0.1) + 's';
-                helix.appendChild(connection);
-            }
-            
-            document.body.appendChild(helix);
-            
-            setTimeout(() => {
-                helix.remove();
-            }, 8000);
-            
-            // Button feedback
-            event.target.style.transform = 'scale(0.95)';
-            setTimeout(() => {
-                event.target.style.transform = '';
-            }, 200);
         }
 
-        // LIGHTSPEED LOVE BEAM - ULTRA-FAST LIGHT BEAM
-        function createLightspeedLove(event) {
-            // Create multiple lightspeed beams from different angles
-            for (let beam = 0; beam < 8; beam++) {
-                setTimeout(() => {
-                    const lightBeam = document.createElement('div');
-                    lightBeam.className = 'lightspeed-beam';
-                    
-                    const startX = Math.random() * window.innerWidth;
-                    const startY = Math.random() * window.innerHeight;
-                    
-                    lightBeam.style.left = startX + 'px';
-                    lightBeam.style.top = '0px';
-                    lightBeam.style.animationDelay = (beam * 0.2) + 's';
-                    
-                    // Random rotation for different beam angles
-                    const rotation = Math.random() * 90 - 45;
-                    lightBeam.style.transform = `rotate(${rotation}deg)`;
-                    
-                    const colors = ['#fff', '#ffd700', '#ff69b4', '#9370db', '#00bfff'];
-                    const colorIndex = beam % colors.length;
-                    lightBeam.style.background = `linear-gradient(180deg, 
-                        transparent 0%,
-                        ${colors[colorIndex]} 10%,
-                        ${colors[(colorIndex + 1) % colors.length]} 30%,
-                        ${colors[(colorIndex + 2) % colors.length]} 50%,
-                        ${colors[(colorIndex + 3) % colors.length]} 70%,
-                        ${colors[colorIndex]} 90%,
-                        transparent 100%
-                    )`;
-                    
-                    document.body.appendChild(lightBeam);
-                    
-                    setTimeout(() => {
-                        lightBeam.remove();
-                    }, 2000);
-                }, beam * 150);
-            }
+        // Show Dhanteras message (exclusive)
+        function showDhanterasMessage(message, event) {
+            clearCurrentMessage(); // Remove any existing message first
             
-            // Button feedback
-            event.target.style.transform = 'scale(0.95)';
-            setTimeout(() => {
-                event.target.style.transform = '';
-            }, 200);
-        }
-
-        // Show romantic message during animations
-        function showRomanticMessage(message, event) {
             const messageDiv = document.createElement('div');
             messageDiv.innerHTML = `
                 <div style="
                     position: fixed;
                     left: 50%;
-                    top: 20%;
+                    top: 15%;
                     transform: translateX(-50%);
-                    background: linear-gradient(135deg, rgba(0,0,0,0.9), rgba(26,26,46,0.95));
-                    color: #ffd700;
-                    padding: 20px 30px;
-                    border-radius: 25px;
-                    font-size: clamp(14px, 3vw, 18px);
+                    background: linear-gradient(135deg, rgba(139, 69, 19, 0.95), rgba(218, 165, 32, 0.9));
+                    color: #FFD700;
+                    padding: 25px 35px;
+                    border-radius: 20px;
+                    font-size: clamp(16px, 4vw, 20px);
                     font-weight: bold;
                     text-align: center;
                     z-index: 2000;
                     pointer-events: none;
-                    border: 2px solid #ffd700;
-                    box-shadow: 0 20px 60px rgba(255, 215, 0, 0.4), 0 0 40px rgba(255, 105, 180, 0.3);
-                    backdrop-filter: blur(15px);
-                    animation: messageFloat 4s ease-out forwards;
+                    border: 3px solid #FFD700;
+                    box-shadow: 0 20px 60px rgba(255, 215, 0, 0.5), 0 0 50px rgba(255, 165, 0, 0.4);
+                    backdrop-filter: blur(10px);
+                    animation: dhanterasMessageFloat 8s ease-out forwards;
                     max-width: 90%;
-                    line-height: 1.4;
-                    text-shadow: 0 0 20px #ffd700;
+                    line-height: 1.5;
+                    text-shadow: 0 0 15px #FFD700;
                 ">
                     ${message}
                 </div>
                 <style>
-                    @keyframes messageFloat {
+                    @keyframes dhanterasMessageFloat {
                         0% { 
                             opacity: 0; 
-                            transform: translateX(-50%) translateY(30px) scale(0.8);
+                            transform: translateX(-50%) translateY(40px) scale(0.8);
                             filter: blur(10px);
                         }
-                        20% { 
+                        15% { 
                             opacity: 1; 
                             transform: translateX(-50%) translateY(0px) scale(1);
                             filter: blur(0px);
                         }
-                        80% { 
+                        85% { 
                             opacity: 1; 
                             transform: translateX(-50%) translateY(-10px) scale(1);
                             filter: blur(0px);
                         }
                         100% { 
                             opacity: 0; 
-                            transform: translateX(-50%) translateY(-40px) scale(0.9);
-                            filter: blur(5px);
+                            transform: translateX(-50%) translateY(-50px) scale(0.9);
+                            filter: blur(8px);
                         }
                     }
                 </style>
             `;
             document.body.appendChild(messageDiv);
+            currentMessage = messageDiv; // Track this message
             
             setTimeout(() => {
-                messageDiv.remove();
-            }, 4000);
+                if (currentMessage === messageDiv) {
+                    messageDiv.remove();
+                    currentMessage = null;
+                }
+            }, 8000);
         }
 
-        // Show cosmic message
-        function showCosmicMessage() {
-            document.getElementById('cosmicModal').style.display = 'block';
-        }
-
-        // Close cosmic modal
-        function closeCosmicModal() {
-            document.getElementById('cosmicModal').style.display = 'none';
+        // Show romantic message (exclusive)
+        function showRomanticMessage(message, event) {
+            clearCurrentMessage(); // Remove any existing message first
+            
+            const messageDiv = document.createElement('div');
+            messageDiv.innerHTML = `
+                <div style="
+                    position: fixed;
+                    left: 50%;
+                    top: 8%;
+                    transform: translateX(-50%);
+                    background: linear-gradient(135deg, 
+                        rgba(255, 182, 193, 0.95) 0%,
+                        rgba(255, 215, 0, 0.9) 30%,
+                        rgba(255, 105, 180, 0.95) 70%,
+                        rgba(255, 165, 0, 0.9) 100%
+                    );
+                    color: #8B0000;
+                    padding: 30px 40px;
+                    border-radius: 25px;
+                    font-size: clamp(13px, 3.2vw, 17px);
+                    font-weight: bold;
+                    text-align: center;
+                    z-index: 2000;
+                    pointer-events: none;
+                    border: 4px solid #FF1493;
+                    box-shadow: 
+                        0 25px 70px rgba(255, 105, 180, 0.6), 
+                        0 0 60px rgba(255, 182, 193, 0.5),
+                        inset 0 2px 0 rgba(255, 255, 255, 0.3);
+                    backdrop-filter: blur(15px);
+                    animation: romanticMessageFloat 10s ease-out forwards;
+                    max-width: 88%;
+                    line-height: 1.6;
+                    text-shadow: 0 1px 3px rgba(139, 0, 0, 0.3);
+                    font-family: 'Georgia', serif;
+                ">
+                    ${message}
+                </div>
+                <style>
+                    @keyframes romanticMessageFloat {
+                        0% { 
+                            opacity: 0; 
+                            transform: translateX(-50%) translateY(50px) scale(0.7);
+                            filter: blur(15px);
+                        }
+                        15% { 
+                            opacity: 1; 
+                            transform: translateX(-50%) translateY(0px) scale(1);
+                            filter: blur(0px);
+                        }
+                        85% { 
+                            opacity: 1; 
+                            transform: translateX(-50%) translateY(-15px) scale(1);
+                            filter: blur(0px);
+                        }
+                        100% { 
+                            opacity: 0; 
+                            transform: translateX(-50%) translateY(-60px) scale(0.8);
+                            filter: blur(12px);
+                        }
+                    }
+                </style>
+            `;
+            document.body.appendChild(messageDiv);
+            currentMessage = messageDiv; // Track this message
+            
+            setTimeout(() => {
+                if (currentMessage === messageDiv) {
+                    messageDiv.remove();
+                    currentMessage = null;
+                }
+            }, 10000);
         }
 
         // Render function for Element SDK
         async function render(config) {
             document.getElementById('mainTitle').textContent = config.main_title || defaultConfig.main_title;
             document.getElementById('subtitleMessage').textContent = config.subtitle_message || defaultConfig.subtitle_message;
-            document.getElementById('loveDeclaration').textContent = config.love_declaration || defaultConfig.love_declaration;
-            document.getElementById('magicButtonText1').textContent = config.magic_button_1 || defaultConfig.magic_button_1;
-            document.getElementById('magicButtonText2').textContent = config.magic_button_2 || defaultConfig.magic_button_2;
-            document.getElementById('magicButtonText3').textContent = config.magic_button_3 || defaultConfig.magic_button_3;
-            document.getElementById('letterTitle').textContent = config.letter_title || defaultConfig.letter_title;
+            document.getElementById('wealthBlessing').textContent = config.wealth_blessing || defaultConfig.wealth_blessing;
+            document.getElementById('goldButton').textContent = config.gold_button || defaultConfig.gold_button;
+            document.getElementById('lakshmiButton').textContent = config.lakshmi_button || defaultConfig.lakshmi_button;
+            document.getElementById('prosperityButton').textContent = config.prosperity_button || defaultConfig.prosperity_button;
+            document.getElementById('specialButton').textContent = config.special_button || defaultConfig.special_button;
+            document.getElementById('heartsButton').textContent = config.hearts_button || defaultConfig.hearts_button;
+            document.getElementById('foreverButton').textContent = config.forever_button || defaultConfig.forever_button;
+            document.getElementById('dhanterasTitle').textContent = config.dhanteras_title || defaultConfig.dhanteras_title;
             
-            const letterContent = (config.letter_content || defaultConfig.letter_content).replace(/\n/g, '<br>');
-            document.getElementById('letterContent').innerHTML = letterContent;
+            const dhanterasContent = (config.dhanteras_content || defaultConfig.dhanteras_content).replace(/\n/g, '<br>');
+            document.getElementById('dhanterasContent').innerHTML = dhanterasContent;
             
-            document.getElementById('finalMessage').textContent = config.final_message || defaultConfig.final_message;
+            document.getElementById('finalBlessing').textContent = config.final_blessing || defaultConfig.final_blessing;
         }
 
         // Element SDK capabilities
@@ -2818,29 +1738,22 @@
             return new Map([
                 ["main_title", config.main_title || defaultConfig.main_title],
                 ["subtitle_message", config.subtitle_message || defaultConfig.subtitle_message],
-                ["love_declaration", config.love_declaration || defaultConfig.love_declaration],
-                ["magic_button_1", config.magic_button_1 || defaultConfig.magic_button_1],
-                ["magic_button_2", config.magic_button_2 || defaultConfig.magic_button_2],
-                ["magic_button_3", config.magic_button_3 || defaultConfig.magic_button_3],
-                ["letter_title", config.letter_title || defaultConfig.letter_title],
-                ["letter_content", config.letter_content || defaultConfig.letter_content],
-                ["final_message", config.final_message || defaultConfig.final_message]
+                ["wealth_blessing", config.wealth_blessing || defaultConfig.wealth_blessing],
+                ["gold_button", config.gold_button || defaultConfig.gold_button],
+                ["lakshmi_button", config.lakshmi_button || defaultConfig.lakshmi_button],
+                ["prosperity_button", config.prosperity_button || defaultConfig.prosperity_button],
+                ["special_button", config.special_button || defaultConfig.special_button],
+                ["hearts_button", config.hearts_button || defaultConfig.hearts_button],
+                ["forever_button", config.forever_button || defaultConfig.forever_button],
+                ["dhanteras_title", config.dhanteras_title || defaultConfig.dhanteras_title],
+                ["dhanteras_content", config.dhanteras_content || defaultConfig.dhanteras_content],
+                ["final_blessing", config.final_blessing || defaultConfig.final_blessing]
             ]);
         }
 
-        // Close modal when clicking outside
-        window.onclick = function(event) {
-            const modal = document.getElementById('cosmicModal');
-            if (event.target === modal) {
-                modal.style.display = 'none';
-            }
-        }
-
-        // Initialize the magical universe
+        // Initialize the golden Dhanteras celebration
         document.addEventListener('DOMContentLoaded', function() {
-            createParticleUniverse();
-            createLoveConstellation();
-            createFloatingMagic();
+            createGoldenParticles();
             
             // Initialize Element SDK
             if (window.elementSdk) {
@@ -2852,18 +1765,6 @@
                 });
             }
         });
-
-        // Add touch support for mobile
-        document.addEventListener('touchstart', function(e) {
-            // Enable touch interactions
-        });
-
-        // Responsive font loading
-        if ('fonts' in document) {
-            document.fonts.ready.then(() => {
-                console.log('Fonts loaded');
-            });
-        }
     </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9907f62ad5378fcd',t:'MTc2MDc4OTczMS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9909404e869647db',t:'MTc2MDgwMzI1My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
